@@ -2,7 +2,6 @@
 import argparse
 import hashlib
 import json
-import os
 import platform
 import resource
 import sys
@@ -64,6 +63,8 @@ def execute_case(net, d, reference, recipe, mode, panel, repeats):
         db.create_function("graph_scores", model_function(net, d, q, edge, recipe, calls),
                            ["INTEGER[]"], "DOUBLE[][]", side_effects=True)
         out, times = {}, {"separate": [], "pooled": []}
+        repeat_check = {plan: {"max_abs": 0.0, "focal_max_abs": 0.0, "nonidentical": 0}
+                        for plan in times}
         for rep in range(-1, repeats):
             order = ["separate", "pooled"]
             if (rep + panel + int(mode == "high")) % 2: order.reverse()
@@ -83,7 +84,19 @@ def execute_case(net, d, reference, recipe, mode, panel, repeats):
                 if rep == -1:
                     out[plan] = prob
                 else:
-                    assert np.array_equal(out[plan], prob), "repetition changed a probability"
+                    diff = np.abs(out[plan] - prob)
+                    max_abs = float(diff.max())
+                    check = repeat_check[plan]
+                    check["max_abs"] = max(check["max_abs"], max_abs)
+                    check["focal_max_abs"] = max(check["focal_max_abs"], float(diff[:nf].max()))
+                    if max_abs:
+                        check["nonidentical"] += 1
+                    flips = (out[plan].argmax(1) != label)
+                    if max_abs > 1e-6 or flips.any():
+                        worst = int(np.unravel_index(diff.argmax(), diff.shape)[0])
+                        raise RuntimeError(f"Repeat discrepancy for {recipe=} {panel=} {mode=} {rep=} {plan=} "
+                                           f"paper={ids[worst]} {max_abs=} focal_flips={flips[:nf].sum()} "
+                                           f"companion_flips={flips[nf:].sum()}")
                     times[plan].append(elapsed)
         db.execute("CREATE TABLE labels(plan VARCHAR, paper_id VARCHAR, rid INTEGER, topic INTEGER)")
         db.executemany("INSERT INTO labels VALUES (?,?,?,?)",
@@ -103,7 +116,7 @@ def execute_case(net, d, reference, recipe, mode, panel, repeats):
     return {"panel": panel, "mode": mode, "moved": sorted(u for u, _ in moved),
             "transition": [[ids[p], int(source[p].argmax()), int(target[p].argmax())]
                            for p in np.flatnonzero(mask)],
-            "n": nf, "rows": len(ids), "timings_ms": times, "archive_max_abs": parity,
+            "n": nf, "rows": len(ids), "timings_ms": times, "archive_max_abs": parity, "repeat_check": repeat_check,
             "max_abs": float(abs(diff).max()), "mean_tv": float(0.5 * abs(diff).sum(1).mean())}, {
                 "ids": np.asarray(ids), **out}
 

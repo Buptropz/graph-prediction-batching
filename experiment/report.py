@@ -18,8 +18,10 @@ def summary(records):
         for model in ("nodepfn", "ephris"):
             key = task + "-" + model
             data = json.loads((records / (key + ".json")).read_text())
-            assert all(hashlib.sha256((HERE / k).read_bytes()).hexdigest() == v
-                       for k, v in data["code"].items())
+            for k, v in data["code"].items():
+                candidates = [HERE / k, HERE / "registered" / k]
+                assert any(p.is_file() and hashlib.sha256(p.read_bytes()).hexdigest() == v
+                           for p in candidates), f"Missing measured source revision for {k}"
             assert data["model"] == model and data["task"] == task and data["repeats"] == 3
             with np.load(records / (key + ".npz"), allow_pickle=False) as vectors:
                 for recipe in ("joint", "support"):

@@ -37,6 +37,8 @@ The verify target checks the SHA-256 of bundled files and reconstructs the two m
 ./reproduce.sh cpu
 ```
 
+The exact primary SQL runner is preserved in `vldb2027/experiment/registered/query.py`. The replay runner additionally logs numeric differences between timing repeats, requires identical class labels on every row, and stops if a repeated probability differs by more than 0.000001. See `vldb2027/experiment/REPLAY.md` for the reason and controls.
+
 The SQL target scores every paper in both plans, checks all focal IDs and probabilities against the prior standalone model executions, saves fresh row-level outputs and recomputes the results table. The CPU target replays each checkpoint on all 100 registered workload/panel/count combinations and runs the four supplemental NodePFN path interventions. CPU probability comparisons allow a maximum absolute error of one part in a million and check all focal top choices for the main experiment. Timings depend on the host. The reported SQL timings came from a single i9-9940X with one DuckDB and two PyTorch execution threads.
 
 The figures can be regenerated in a separate plotting environment based on the CPU environment. Matplotlib 3.11.2 was used for the supplied vector PDFs. Keep the inference environment's NumPy pin when installing plotting dependencies, or use a separate environment for plotting.

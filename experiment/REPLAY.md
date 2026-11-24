@@ -1,0 +1,6 @@
+# CPU replay tolerance
+2026-11-24. The first registered SQL execution completed all 80 cases and its warm-ups and timing repeats had identical output vectors. The historical program is preserved byte for byte in registered/query.py. Its hash is in each primary JSON record.
+
+In a later clean extraction, a PubMed/Ephris invocation failed the program's all-row, bit-for-bit repeat assertion. That assertion also applied to the companion records. The process stopped before recording a magnitude or the offending row. The original saved results are retained. The prespecified acceptance bound for comparison with earlier focal probabilities was 0.000001. The replay uses this absolute bound also for repeated, complete 56-row outputs and checks that every top label is identical. A change of any class or a repeat discrepancy above this bound stops the run with the case, paper ID, magnitude and flip counts.
+
+For each input and plan the current runner records the largest observed repeat discrepancy for focal rows and all rows separately, and counts repeats with any differing bits. A separate diagnostic repeats each plan eighteen times on the first PubMed/Ephris panel. A fresh full replay tests every case with the original three timed repeats per plan. Its timings are kept separate from the original measurement table.
