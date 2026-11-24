@@ -28,3 +28,5 @@ Follow the included README to create the Python 3.11 CPU environment. Run `./rep
 The repository view contains selected records for browsing. Use the versioned release archive for the complete executable layout. Each case contains the same IDs under both plans. The timings describe a warm CPU query on the measured host. The GPU scale study uses one citation graph and one frozen Ephris checkpoint.
 
 Original third-party licenses, model cards and attribution accompany their files in the release.
+
+A full independent replay matched all 160 original SQL probability matrices for the two requests. The [repeat-check record](experiment/REPLAY.md) documents an earlier unquantified failure of a bitwise assertion, the subsequent checks and the limits of that evidence.

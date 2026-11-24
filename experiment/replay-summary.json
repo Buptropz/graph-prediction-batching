@@ -1,0 +1,92 @@
+{
+  "eighteen": {
+    "files": {
+      "pubmed-ephris.json": "5fdfe8959f4d100836e3bc7431b20da548ebe8ac634276db30b403fc6d2ef849",
+      "pubmed-ephris.npz": "a264a7ed402d49b6c911c4b9bd1d275e4411f3ecaf2354499ffbd07ace0b8039"
+    },
+    "cases": 4,
+    "repeat_plan_executions": 144,
+    "nonidentical_repeats": 0,
+    "max_repeat_abs": 0.0,
+    "max_focal_repeat_abs": 0.0,
+    "max_vs_primary_abs": 0.0,
+    "max_focal_vs_primary_abs": 0.0,
+    "changed_top_classes": 0
+  },
+  "full": {
+    "files": {
+      "cora-ephris.json": "5dce877e9ff5ce2e195716f0d9f9ae208cc4ddd47b594ecdc44e08757a012420",
+      "cora-ephris.npz": "b6f31f40befa02dda5d5a4477f60ed178947c7dfaa8c0506b79f3f370a8bd534",
+      "cora-nodepfn.json": "8ecbcce115351f6d514f1437c66cb7458ea2d002985089f9d463e11c521e376c",
+      "cora-nodepfn.npz": "0529709f241860fb72a9c0554ac1e65ddbcfe49806182bc74fba60d662c7fab7",
+      "pubmed-ephris.json": "6934a11eb164b558b3c16259b038d0456b6b447dbde2d372e07c69762c73a2be",
+      "pubmed-ephris.npz": "916336f2cede305fc925895c9265e2b83fdaf485ca7c9084f1696be5fd63f413",
+      "pubmed-nodepfn.json": "cd388ae7285b8b48138d9f4a643db331d2f2f90b5df252b17e71c2f64cf48b75",
+      "pubmed-nodepfn.npz": "e46842e6f1506897ddb60519b7eebad4c2bdc47fd1aeb1ba2d32baf42238fae5"
+    },
+    "cases": 80,
+    "repeat_plan_executions": 480,
+    "nonidentical_repeats": 0,
+    "max_repeat_abs": 0.0,
+    "max_focal_repeat_abs": 0.0,
+    "max_vs_primary_abs": 0.0,
+    "max_focal_vs_primary_abs": 0.0,
+    "changed_top_classes": 0
+  },
+  "process-1": {
+    "files": {
+      "pubmed-ephris.json": "821c1372234cea1ae71be5e579b18ea87e51af86e38b74d01990033ec7048b6e",
+      "pubmed-ephris.npz": "a264a7ed402d49b6c911c4b9bd1d275e4411f3ecaf2354499ffbd07ace0b8039"
+    },
+    "cases": 4,
+    "repeat_plan_executions": 32,
+    "nonidentical_repeats": 0,
+    "max_repeat_abs": 0.0,
+    "max_focal_repeat_abs": 0.0,
+    "max_vs_primary_abs": 0.0,
+    "max_focal_vs_primary_abs": 0.0,
+    "changed_top_classes": 0
+  },
+  "process-2": {
+    "files": {
+      "pubmed-ephris.json": "14a7d89dcec68c86e30fa6d7a007c8f1d670bd4719ce6bce849585957bae0ad3",
+      "pubmed-ephris.npz": "a264a7ed402d49b6c911c4b9bd1d275e4411f3ecaf2354499ffbd07ace0b8039"
+    },
+    "cases": 4,
+    "repeat_plan_executions": 32,
+    "nonidentical_repeats": 0,
+    "max_repeat_abs": 0.0,
+    "max_focal_repeat_abs": 0.0,
+    "max_vs_primary_abs": 0.0,
+    "max_focal_vs_primary_abs": 0.0,
+    "changed_top_classes": 0
+  },
+  "process-3": {
+    "files": {
+      "pubmed-ephris.json": "c8c751e108320c2316afff3a9820579742ce6dba8225395a34134b1fc5b04484",
+      "pubmed-ephris.npz": "a264a7ed402d49b6c911c4b9bd1d275e4411f3ecaf2354499ffbd07ace0b8039"
+    },
+    "cases": 4,
+    "repeat_plan_executions": 32,
+    "nonidentical_repeats": 0,
+    "max_repeat_abs": 0.0,
+    "max_focal_repeat_abs": 0.0,
+    "max_vs_primary_abs": 0.0,
+    "max_focal_vs_primary_abs": 0.0,
+    "changed_top_classes": 0
+  },
+  "process-4": {
+    "files": {
+      "pubmed-ephris.json": "b84e6b802511ef28384d386476eb0d68e1ead5bd1068e43d21bc0b38c910654f",
+      "pubmed-ephris.npz": "a264a7ed402d49b6c911c4b9bd1d275e4411f3ecaf2354499ffbd07ace0b8039"
+    },
+    "cases": 4,
+    "repeat_plan_executions": 32,
+    "nonidentical_repeats": 0,
+    "max_repeat_abs": 0.0,
+    "max_focal_repeat_abs": 0.0,
+    "max_vs_primary_abs": 0.0,
+    "max_focal_vs_primary_abs": 0.0,
+    "changed_top_classes": 0
+  }
+}
