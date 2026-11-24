@@ -1,0 +1,700 @@
+{
+  "task": "pubmed",
+  "model": "nodepfn",
+  "repeats": 3,
+  "duckdb": "1.4.3",
+  "torch": "2.11.0+cpu",
+  "numpy": "1.26.4",
+  "python": "3.11.18",
+  "cpu": "Intel(R) Core(TM) i9-9940X CPU @ 3.30GHz",
+  "model_threads": 2,
+  "db_threads": 1,
+  "peak_rss_bytes": 684945408,
+  "code": {
+    "query.py": "a043a6b3677b70418fc32b65addd0b2b4566a923bc0d130f59c51a5b41871aa3",
+    "plans.sql": "9315de7ec01a6e591fdd9c6d63a8e617c6f4e4dd942c93867c7d00fab87250d8",
+    "PROTOCOL.md": "5f8dccd39c81c7e358e25670efb4d828d5786dd14fed3b2dd009ae75dcaa1dae"
+  },
+  "cases": [
+    {
+      "panel": 0,
+      "mode": "low",
+      "moved": [
+        "pubmed/3664"
+      ],
+      "transition": [
+        [
+          "pubmed/3664",
+          1,
+          2
+        ]
+      ],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          148.603196,
+          152.666258,
+          152.389342
+        ],
+        "pooled": [
+          95.193468,
+          96.183066,
+          99.51245
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.6172622499919015,
+      "mean_tv": 0.04667911583756515,
+      "recipe": "joint",
+      "source_sha256": "466a45c4088357be6e79d15afa625e68660981e37b0209d3ff6eb1f7c15fbb36",
+      "reference_sha256": "38223b60c11684e6f97b937c61add927b97ddb0557982dad68ed966690f2ccdc"
+    },
+    {
+      "panel": 0,
+      "mode": "high",
+      "moved": [
+        "pubmed/10704",
+        "pubmed/630",
+        "pubmed/9959"
+      ],
+      "transition": [
+        [
+          "pubmed/10704",
+          2,
+          1
+        ],
+        [
+          "pubmed/9959",
+          1,
+          2
+        ],
+        [
+          "pubmed/630",
+          2,
+          1
+        ]
+      ],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          150.866465,
+          149.320746,
+          292.343078
+        ],
+        "pooled": [
+          120.12243,
+          95.901587,
+          96.391383
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.33043204256031655,
+      "mean_tv": 0.03782598516723017,
+      "recipe": "joint",
+      "source_sha256": "466a45c4088357be6e79d15afa625e68660981e37b0209d3ff6eb1f7c15fbb36",
+      "reference_sha256": "38223b60c11684e6f97b937c61add927b97ddb0557982dad68ed966690f2ccdc"
+    },
+    {
+      "panel": 0,
+      "mode": "low",
+      "moved": [],
+      "transition": [],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          154.727042,
+          151.417405,
+          150.057505
+        ],
+        "pooled": [
+          99.801468,
+          104.931037,
+          96.963602
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.0,
+      "mean_tv": 0.0,
+      "recipe": "support",
+      "source_sha256": "466a45c4088357be6e79d15afa625e68660981e37b0209d3ff6eb1f7c15fbb36",
+      "reference_sha256": "38223b60c11684e6f97b937c61add927b97ddb0557982dad68ed966690f2ccdc"
+    },
+    {
+      "panel": 0,
+      "mode": "high",
+      "moved": [],
+      "transition": [],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          157.464623,
+          154.039223,
+          161.719095
+        ],
+        "pooled": [
+          104.613797,
+          95.942903,
+          96.987913
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.0,
+      "mean_tv": 0.0,
+      "recipe": "support",
+      "source_sha256": "466a45c4088357be6e79d15afa625e68660981e37b0209d3ff6eb1f7c15fbb36",
+      "reference_sha256": "38223b60c11684e6f97b937c61add927b97ddb0557982dad68ed966690f2ccdc"
+    },
+    {
+      "panel": 1,
+      "mode": "low",
+      "moved": [
+        "pubmed/7074",
+        "pubmed/8531"
+      ],
+      "transition": [
+        [
+          "pubmed/8531",
+          2,
+          1
+        ],
+        [
+          "pubmed/7074",
+          1,
+          2
+        ]
+      ],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          160.060472,
+          151.416287,
+          152.037051
+        ],
+        "pooled": [
+          102.587683,
+          97.495064,
+          97.05889
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.552038197557382,
+      "mean_tv": 0.07322122664361969,
+      "recipe": "joint",
+      "source_sha256": "39cacd928035a04b4dd26866c4eb97bc8c5a329811dddc0e8c87bd6522e1251d",
+      "reference_sha256": "af0b466db600c9b4381121549e98b6ec7a6963ad2697a3c83df0653af0a34fc7"
+    },
+    {
+      "panel": 1,
+      "mode": "high",
+      "moved": [
+        "pubmed/16526"
+      ],
+      "transition": [
+        [
+          "pubmed/16526",
+          1,
+          2
+        ]
+      ],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          154.958866,
+          174.800889,
+          151.348143
+        ],
+        "pooled": [
+          100.851555,
+          109.46299,
+          98.801712
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.3538447664125837,
+      "mean_tv": 0.06063903909619873,
+      "recipe": "joint",
+      "source_sha256": "39cacd928035a04b4dd26866c4eb97bc8c5a329811dddc0e8c87bd6522e1251d",
+      "reference_sha256": "af0b466db600c9b4381121549e98b6ec7a6963ad2697a3c83df0653af0a34fc7"
+    },
+    {
+      "panel": 1,
+      "mode": "low",
+      "moved": [],
+      "transition": [],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          179.723354,
+          153.468767,
+          170.462523
+        ],
+        "pooled": [
+          97.664724,
+          99.645658,
+          103.591132
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.0,
+      "mean_tv": 0.0,
+      "recipe": "support",
+      "source_sha256": "39cacd928035a04b4dd26866c4eb97bc8c5a329811dddc0e8c87bd6522e1251d",
+      "reference_sha256": "af0b466db600c9b4381121549e98b6ec7a6963ad2697a3c83df0653af0a34fc7"
+    },
+    {
+      "panel": 1,
+      "mode": "high",
+      "moved": [],
+      "transition": [],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          152.359593,
+          156.744757,
+          154.401374
+        ],
+        "pooled": [
+          100.493987,
+          107.960629,
+          99.665679
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.0,
+      "mean_tv": 0.0,
+      "recipe": "support",
+      "source_sha256": "39cacd928035a04b4dd26866c4eb97bc8c5a329811dddc0e8c87bd6522e1251d",
+      "reference_sha256": "af0b466db600c9b4381121549e98b6ec7a6963ad2697a3c83df0653af0a34fc7"
+    },
+    {
+      "panel": 2,
+      "mode": "low",
+      "moved": [],
+      "transition": [],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          151.628139,
+          151.625005,
+          158.627761
+        ],
+        "pooled": [
+          100.049798,
+          103.516131,
+          100.279123
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.27393932076272065,
+      "mean_tv": 0.027730706939848384,
+      "recipe": "joint",
+      "source_sha256": "29132a05466501288b341c4d25f5e7da4b6b6c0c11146689d93c07b45f510e10",
+      "reference_sha256": "dcc2b5db26946710261c69439b80b7708da4caa457a1dc8e10143b20728a3003"
+    },
+    {
+      "panel": 2,
+      "mode": "high",
+      "moved": [],
+      "transition": [],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          148.693219,
+          145.536201,
+          149.377786
+        ],
+        "pooled": [
+          97.487802,
+          102.281098,
+          103.510512
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.34266988256551256,
+      "mean_tv": 0.03090401241832436,
+      "recipe": "joint",
+      "source_sha256": "29132a05466501288b341c4d25f5e7da4b6b6c0c11146689d93c07b45f510e10",
+      "reference_sha256": "dcc2b5db26946710261c69439b80b7708da4caa457a1dc8e10143b20728a3003"
+    },
+    {
+      "panel": 2,
+      "mode": "low",
+      "moved": [],
+      "transition": [],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          147.28054,
+          147.719859,
+          148.074832
+        ],
+        "pooled": [
+          97.923648,
+          99.467394,
+          94.367605
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.0,
+      "mean_tv": 0.0,
+      "recipe": "support",
+      "source_sha256": "29132a05466501288b341c4d25f5e7da4b6b6c0c11146689d93c07b45f510e10",
+      "reference_sha256": "dcc2b5db26946710261c69439b80b7708da4caa457a1dc8e10143b20728a3003"
+    },
+    {
+      "panel": 2,
+      "mode": "high",
+      "moved": [],
+      "transition": [],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          152.032704,
+          148.206385,
+          150.935537
+        ],
+        "pooled": [
+          102.791289,
+          97.614552,
+          101.141533
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.0,
+      "mean_tv": 0.0,
+      "recipe": "support",
+      "source_sha256": "29132a05466501288b341c4d25f5e7da4b6b6c0c11146689d93c07b45f510e10",
+      "reference_sha256": "dcc2b5db26946710261c69439b80b7708da4caa457a1dc8e10143b20728a3003"
+    },
+    {
+      "panel": 3,
+      "mode": "low",
+      "moved": [
+        "pubmed/9137"
+      ],
+      "transition": [
+        [
+          "pubmed/9137",
+          1,
+          2
+        ]
+      ],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          150.587727,
+          146.056919,
+          150.435553
+        ],
+        "pooled": [
+          99.11562,
+          96.418776,
+          100.304199
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.5014152381093766,
+      "mean_tv": 0.05646654205485119,
+      "recipe": "joint",
+      "source_sha256": "d3e8748f9daedf2d591a303f0eca5d3b5b581f3416c018989c0d6085e55eb031",
+      "reference_sha256": "ab36b0418a57073b19d34fb73856128243568f429d9ea485cfa56991fe8facf4"
+    },
+    {
+      "panel": 3,
+      "mode": "high",
+      "moved": [
+        "pubmed/15343",
+        "pubmed/19202"
+      ],
+      "transition": [
+        [
+          "pubmed/15343",
+          2,
+          1
+        ],
+        [
+          "pubmed/19202",
+          2,
+          1
+        ]
+      ],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          145.701301,
+          154.847722,
+          145.11257
+        ],
+        "pooled": [
+          98.310395,
+          106.763126,
+          97.745585
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.40422869356275365,
+      "mean_tv": 0.057147198556072115,
+      "recipe": "joint",
+      "source_sha256": "d3e8748f9daedf2d591a303f0eca5d3b5b581f3416c018989c0d6085e55eb031",
+      "reference_sha256": "ab36b0418a57073b19d34fb73856128243568f429d9ea485cfa56991fe8facf4"
+    },
+    {
+      "panel": 3,
+      "mode": "low",
+      "moved": [],
+      "transition": [],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          151.881322,
+          161.434848,
+          150.218399
+        ],
+        "pooled": [
+          106.054359,
+          97.404495,
+          98.448908
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.0,
+      "mean_tv": 0.0,
+      "recipe": "support",
+      "source_sha256": "d3e8748f9daedf2d591a303f0eca5d3b5b581f3416c018989c0d6085e55eb031",
+      "reference_sha256": "ab36b0418a57073b19d34fb73856128243568f429d9ea485cfa56991fe8facf4"
+    },
+    {
+      "panel": 3,
+      "mode": "high",
+      "moved": [],
+      "transition": [],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          145.999887,
+          151.321405,
+          147.387536
+        ],
+        "pooled": [
+          97.680301,
+          101.1945,
+          97.585511
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.0,
+      "mean_tv": 0.0,
+      "recipe": "support",
+      "source_sha256": "d3e8748f9daedf2d591a303f0eca5d3b5b581f3416c018989c0d6085e55eb031",
+      "reference_sha256": "ab36b0418a57073b19d34fb73856128243568f429d9ea485cfa56991fe8facf4"
+    },
+    {
+      "panel": 4,
+      "mode": "low",
+      "moved": [
+        "pubmed/14999",
+        "pubmed/18998"
+      ],
+      "transition": [
+        [
+          "pubmed/14999",
+          2,
+          1
+        ],
+        [
+          "pubmed/18998",
+          2,
+          1
+        ]
+      ],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          157.58057,
+          146.105651,
+          149.990028
+        ],
+        "pooled": [
+          107.761214,
+          99.768637,
+          95.614774
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.22007657544275055,
+      "mean_tv": 0.04063939293701425,
+      "recipe": "joint",
+      "source_sha256": "3813dfbe8858047ea2bcf3b40abcbaa848f565fee3dfb5b044eb5e4813703e7a",
+      "reference_sha256": "94ed2a210e168207540b73d9a74474a65529ad38e2a13ae33e1099a899f137e3"
+    },
+    {
+      "panel": 4,
+      "mode": "high",
+      "moved": [
+        "pubmed/14999",
+        "pubmed/18998"
+      ],
+      "transition": [
+        [
+          "pubmed/14999",
+          2,
+          1
+        ],
+        [
+          "pubmed/18998",
+          2,
+          1
+        ]
+      ],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          151.667067,
+          149.175625,
+          149.43596
+        ],
+        "pooled": [
+          100.169684,
+          96.168214,
+          101.54397
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.17285703880398684,
+      "mean_tv": 0.03328400163754966,
+      "recipe": "joint",
+      "source_sha256": "3813dfbe8858047ea2bcf3b40abcbaa848f565fee3dfb5b044eb5e4813703e7a",
+      "reference_sha256": "94ed2a210e168207540b73d9a74474a65529ad38e2a13ae33e1099a899f137e3"
+    },
+    {
+      "panel": 4,
+      "mode": "low",
+      "moved": [],
+      "transition": [],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          174.138545,
+          152.523802,
+          150.388656
+        ],
+        "pooled": [
+          97.334435,
+          102.184645,
+          96.758692
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.0,
+      "mean_tv": 0.0,
+      "recipe": "support",
+      "source_sha256": "3813dfbe8858047ea2bcf3b40abcbaa848f565fee3dfb5b044eb5e4813703e7a",
+      "reference_sha256": "94ed2a210e168207540b73d9a74474a65529ad38e2a13ae33e1099a899f137e3"
+    },
+    {
+      "panel": 4,
+      "mode": "high",
+      "moved": [],
+      "transition": [],
+      "n": 24,
+      "rows": 56,
+      "timings_ms": {
+        "separate": [
+          164.44902,
+          147.697556,
+          161.988894
+        ],
+        "pooled": [
+          96.477518,
+          96.82024,
+          102.353926
+        ]
+      },
+      "archive_max_abs": {
+        "separate": 0.0,
+        "pooled": 0.0
+      },
+      "max_abs": 0.0,
+      "mean_tv": 0.0,
+      "recipe": "support",
+      "source_sha256": "3813dfbe8858047ea2bcf3b40abcbaa848f565fee3dfb5b044eb5e4813703e7a",
+      "reference_sha256": "94ed2a210e168207540b73d9a74474a65529ad38e2a13ae33e1099a899f137e3"
+    }
+  ]
+}
