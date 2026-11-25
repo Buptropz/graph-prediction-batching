@@ -1,0 +1,131 @@
+{
+ "device": "cpu",
+ "task": "pubmed",
+ "rows": 8192,
+ "analyst_rows": 16,
+ "support": 32,
+ "members": 3,
+ "fit": "support",
+ "vectors": {
+  "base": [
+   2048,
+   2048,
+   2048,
+   2048
+  ],
+  "repeat": [
+   2048,
+   2048,
+   2048,
+   2048
+  ],
+  "row order": [
+   2048,
+   2048,
+   2048,
+   2048
+  ],
+  "filter first": [
+   1024,
+   1024,
+   1024,
+   1024
+  ],
+  "filter last": [
+   2048,
+   2048,
+   2048,
+   2048
+  ],
+  "100 rows ahead": [
+   1948,
+   2048,
+   2048,
+   2048,
+   100
+  ],
+  "four threads": [
+   2048,
+   2048,
+   2048,
+   2048
+  ]
+ },
+ "sql": {
+  "base": "SELECT node, topic(node) FROM papers",
+  "repeat": "SELECT node, topic(node) FROM papers",
+  "row order": "SELECT node, topic(node) FROM papers_shuffled",
+  "filter first": "SELECT node, topic(node) FROM papers WHERE analyst % 2 = 0",
+  "filter last": "SELECT node, p FROM (SELECT node, analyst, topic(node) AS p FROM papers) WHERE analyst % 2 = 0",
+  "100 rows ahead": "SELECT node, topic(node) FROM papers_prefixed WHERE analyst >= 0",
+  "four threads": "SELECT node, topic(node) FROM papers"
+ },
+ "versus_base": {
+  "repeat": {
+   "rows": 8192,
+   "flips": 0,
+   "threshold": 0,
+   "max_abs": 0.0,
+   "tv": 0.0
+  },
+  "row order": {
+   "rows": 8192,
+   "flips": 711,
+   "threshold": 1422,
+   "max_abs": 0.9655522213598112,
+   "tv": 0.08627686938480048
+  },
+  "filter first": {
+   "rows": 4096,
+   "flips": 253,
+   "threshold": 501,
+   "max_abs": 0.9131575704955626,
+   "tv": 0.06440133138856208
+  },
+  "filter last": {
+   "rows": 4096,
+   "flips": 0,
+   "threshold": 0,
+   "max_abs": 0.0,
+   "tv": 0.0
+  },
+  "100 rows ahead": {
+   "rows": 8192,
+   "flips": 190,
+   "threshold": 402,
+   "max_abs": 0.7393431517376502,
+   "tv": 0.026557500854158943
+  },
+  "four threads": {
+   "rows": 8192,
+   "flips": 0,
+   "threshold": 0,
+   "max_abs": 0.0,
+   "tv": 0.0
+  },
+  "per analyst": {
+   "rows": 8192,
+   "flips": 908,
+   "threshold": 1804,
+   "max_abs": 0.9528438406556292,
+   "tv": 0.10938955162056106
+  }
+ },
+ "filter_pair": {
+  "rows": 4096,
+  "flips": 253,
+  "threshold": 501,
+  "max_abs": 0.9131575704955626,
+  "tv": 0.06440133138856208
+ },
+ "accuracy": {
+  "base": 0.6317138671875,
+  "repeat": 0.6317138671875,
+  "row order": 0.62109375,
+  "filter first": 0.6162109375,
+  "filter last": 0.63134765625,
+  "100 rows ahead": 0.6309814453125,
+  "four threads": 0.6317138671875,
+  "per analyst": 0.5977783203125
+ }
+}

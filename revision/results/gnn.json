@@ -1,0 +1,1730 @@
+[
+ {
+  "task": "cora",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 0,
+  "val_accuracy": 0.36853933334350586,
+  "topology": "attached",
+  "union": {
+   "flips": 2,
+   "threshold": 0,
+   "changed_lists": 17,
+   "lists": 140,
+   "max_abs": 0.0011287033557891846
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 97,
+   "union": 97
+  }
+ },
+ {
+  "task": "cora",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 0,
+  "val_accuracy": 0.36853933334350586,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 99,
+   "union": 99
+  }
+ },
+ {
+  "task": "cora",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 1,
+  "val_accuracy": 0.35056179761886597,
+  "topology": "attached",
+  "union": {
+   "flips": 3,
+   "threshold": 0,
+   "changed_lists": 22,
+   "lists": 140,
+   "max_abs": 0.0009390264749526978
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 83,
+   "union": 85
+  }
+ },
+ {
+  "task": "cora",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 1,
+  "val_accuracy": 0.35056179761886597,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 91,
+   "union": 91
+  }
+ },
+ {
+  "task": "cora",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 2,
+  "val_accuracy": 0.41797754168510437,
+  "topology": "attached",
+  "union": {
+   "flips": 2,
+   "threshold": 0,
+   "changed_lists": 12,
+   "lists": 140,
+   "max_abs": 0.0013402551412582397
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 91,
+   "union": 92
+  }
+ },
+ {
+  "task": "cora",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 2,
+  "val_accuracy": 0.41797754168510437,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 93,
+   "union": 93
+  }
+ },
+ {
+  "task": "cora",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 0,
+  "val_accuracy": 0.8539325594902039,
+  "topology": "attached",
+  "union": {
+   "flips": 6,
+   "threshold": 6,
+   "changed_lists": 17,
+   "lists": 140,
+   "max_abs": 0.3309493958950043
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 253,
+   "union": 253
+  }
+ },
+ {
+  "task": "cora",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 0,
+  "val_accuracy": 0.8539325594902039,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 244,
+   "union": 244
+  }
+ },
+ {
+  "task": "cora",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 1,
+  "val_accuracy": 0.8853932619094849,
+  "topology": "attached",
+  "union": {
+   "flips": 4,
+   "threshold": 6,
+   "changed_lists": 21,
+   "lists": 140,
+   "max_abs": 0.3685009777545929
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 256,
+   "union": 255
+  }
+ },
+ {
+  "task": "cora",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 1,
+  "val_accuracy": 0.8853932619094849,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 245,
+   "union": 245
+  }
+ },
+ {
+  "task": "cora",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 2,
+  "val_accuracy": 0.8898876309394836,
+  "topology": "attached",
+  "union": {
+   "flips": 3,
+   "threshold": 8,
+   "changed_lists": 16,
+   "lists": 140,
+   "max_abs": 0.3592265844345093
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 257,
+   "union": 254
+  }
+ },
+ {
+  "task": "cora",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 2,
+  "val_accuracy": 0.8898876309394836,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 244,
+   "union": 244
+  }
+ },
+ {
+  "task": "cora",
+  "model": "sage",
+  "layers": 1,
+  "seed": 0,
+  "val_accuracy": 0.47191011905670166,
+  "topology": "attached",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 109,
+   "union": 109
+  }
+ },
+ {
+  "task": "cora",
+  "model": "sage",
+  "layers": 1,
+  "seed": 0,
+  "val_accuracy": 0.47191011905670166,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 85,
+   "union": 85
+  }
+ },
+ {
+  "task": "cora",
+  "model": "sage",
+  "layers": 1,
+  "seed": 1,
+  "val_accuracy": 0.49438202381134033,
+  "topology": "attached",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 106,
+   "union": 106
+  }
+ },
+ {
+  "task": "cora",
+  "model": "sage",
+  "layers": 1,
+  "seed": 1,
+  "val_accuracy": 0.49438202381134033,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 84,
+   "union": 84
+  }
+ },
+ {
+  "task": "cora",
+  "model": "sage",
+  "layers": 1,
+  "seed": 2,
+  "val_accuracy": 0.4808988869190216,
+  "topology": "attached",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 107,
+   "union": 107
+  }
+ },
+ {
+  "task": "cora",
+  "model": "sage",
+  "layers": 1,
+  "seed": 2,
+  "val_accuracy": 0.4808988869190216,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 83,
+   "union": 83
+  }
+ },
+ {
+  "task": "cora",
+  "model": "sage",
+  "layers": 2,
+  "seed": 0,
+  "val_accuracy": 0.8606741428375244,
+  "topology": "attached",
+  "union": {
+   "flips": 3,
+   "threshold": 8,
+   "changed_lists": 9,
+   "lists": 140,
+   "max_abs": 0.4059712290763855
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 246,
+   "union": 245
+  }
+ },
+ {
+  "task": "cora",
+  "model": "sage",
+  "layers": 2,
+  "seed": 0,
+  "val_accuracy": 0.8606741428375244,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 208,
+   "union": 208
+  }
+ },
+ {
+  "task": "cora",
+  "model": "sage",
+  "layers": 2,
+  "seed": 1,
+  "val_accuracy": 0.8921348452568054,
+  "topology": "attached",
+  "union": {
+   "flips": 4,
+   "threshold": 12,
+   "changed_lists": 13,
+   "lists": 140,
+   "max_abs": 0.3933274447917938
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 245,
+   "union": 244
+  }
+ },
+ {
+  "task": "cora",
+  "model": "sage",
+  "layers": 2,
+  "seed": 1,
+  "val_accuracy": 0.8921348452568054,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 216,
+   "union": 216
+  }
+ },
+ {
+  "task": "cora",
+  "model": "sage",
+  "layers": 2,
+  "seed": 2,
+  "val_accuracy": 0.9056179523468018,
+  "topology": "attached",
+  "union": {
+   "flips": 6,
+   "threshold": 9,
+   "changed_lists": 16,
+   "lists": 140,
+   "max_abs": 0.338265597820282
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 239,
+   "union": 238
+  }
+ },
+ {
+  "task": "cora",
+  "model": "sage",
+  "layers": 2,
+  "seed": 2,
+  "val_accuracy": 0.9056179523468018,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 140,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 209,
+   "union": 209
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 0,
+  "val_accuracy": 0.672991931438446,
+  "topology": "attached",
+  "union": {
+   "flips": 0,
+   "threshold": 5,
+   "changed_lists": 5,
+   "lists": 60,
+   "max_abs": 0.04168879985809326
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 228,
+   "union": 228
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 0,
+  "val_accuracy": 0.672991931438446,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 224,
+   "union": 224
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 1,
+  "val_accuracy": 0.6995061039924622,
+  "topology": "attached",
+  "union": {
+   "flips": 1,
+   "threshold": 10,
+   "changed_lists": 8,
+   "lists": 60,
+   "max_abs": 0.0422692745923996
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 226,
+   "union": 226
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 1,
+  "val_accuracy": 0.6995061039924622,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 224,
+   "union": 224
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 2,
+  "val_accuracy": 0.6794905066490173,
+  "topology": "attached",
+  "union": {
+   "flips": 1,
+   "threshold": 4,
+   "changed_lists": 6,
+   "lists": 60,
+   "max_abs": 0.041260212659835815
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 227,
+   "union": 226
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 2,
+  "val_accuracy": 0.6794905066490173,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 224,
+   "union": 224
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 0,
+  "val_accuracy": 0.8554717898368835,
+  "topology": "attached",
+  "union": {
+   "flips": 3,
+   "threshold": 9,
+   "changed_lists": 8,
+   "lists": 60,
+   "max_abs": 0.28839999437332153
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 274,
+   "union": 277
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 0,
+  "val_accuracy": 0.8554717898368835,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 275,
+   "union": 275
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 1,
+  "val_accuracy": 0.8726280331611633,
+  "topology": "attached",
+  "union": {
+   "flips": 4,
+   "threshold": 3,
+   "changed_lists": 11,
+   "lists": 60,
+   "max_abs": 0.31140267848968506
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 274,
+   "union": 276
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 1,
+  "val_accuracy": 0.8726280331611633,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 274,
+   "union": 274
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 2,
+  "val_accuracy": 0.8682090044021606,
+  "topology": "attached",
+  "union": {
+   "flips": 2,
+   "threshold": 7,
+   "changed_lists": 10,
+   "lists": 60,
+   "max_abs": 0.29735374450683594
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 273,
+   "union": 275
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 2,
+  "val_accuracy": 0.8682090044021606,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 272,
+   "union": 272
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "sage",
+  "layers": 1,
+  "seed": 0,
+  "val_accuracy": 0.7873668074607849,
+  "topology": "attached",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 255,
+   "union": 255
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "sage",
+  "layers": 1,
+  "seed": 0,
+  "val_accuracy": 0.7873668074607849,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 234,
+   "union": 234
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "sage",
+  "layers": 1,
+  "seed": 1,
+  "val_accuracy": 0.8086820840835571,
+  "topology": "attached",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 255,
+   "union": 255
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "sage",
+  "layers": 1,
+  "seed": 1,
+  "val_accuracy": 0.8086820840835571,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 234,
+   "union": 234
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "sage",
+  "layers": 1,
+  "seed": 2,
+  "val_accuracy": 0.7998440265655518,
+  "topology": "attached",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 252,
+   "union": 252
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "sage",
+  "layers": 1,
+  "seed": 2,
+  "val_accuracy": 0.7998440265655518,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 230,
+   "union": 230
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "sage",
+  "layers": 2,
+  "seed": 0,
+  "val_accuracy": 0.8689888119697571,
+  "topology": "attached",
+  "union": {
+   "flips": 3,
+   "threshold": 6,
+   "changed_lists": 2,
+   "lists": 60,
+   "max_abs": 0.12022268772125244
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 278,
+   "union": 275
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "sage",
+  "layers": 2,
+  "seed": 0,
+  "val_accuracy": 0.8689888119697571,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 273,
+   "union": 273
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "sage",
+  "layers": 2,
+  "seed": 1,
+  "val_accuracy": 0.8783467411994934,
+  "topology": "attached",
+  "union": {
+   "flips": 1,
+   "threshold": 1,
+   "changed_lists": 4,
+   "lists": 60,
+   "max_abs": 0.10388672351837158
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 271,
+   "union": 270
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "sage",
+  "layers": 2,
+  "seed": 1,
+  "val_accuracy": 0.8783467411994934,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 265,
+   "union": 265
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "sage",
+  "layers": 2,
+  "seed": 2,
+  "val_accuracy": 0.8728879690170288,
+  "topology": "attached",
+  "union": {
+   "flips": 2,
+   "threshold": 5,
+   "changed_lists": 2,
+   "lists": 60,
+   "max_abs": 0.10522094368934631
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 274,
+   "union": 272
+  }
+ },
+ {
+  "task": "pubmed",
+  "model": "sage",
+  "layers": 2,
+  "seed": 2,
+  "val_accuracy": 0.8728879690170288,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 60,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 270,
+   "union": 270
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 0,
+  "val_accuracy": 0.4268292784690857,
+  "topology": "attached",
+  "union": {
+   "flips": 4,
+   "threshold": 0,
+   "changed_lists": 13,
+   "lists": 100,
+   "max_abs": 0.002501949667930603
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 98,
+   "union": 95
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 0,
+  "val_accuracy": 0.4268292784690857,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 99,
+   "union": 99
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 1,
+  "val_accuracy": 0.5,
+  "topology": "attached",
+  "union": {
+   "flips": 3,
+   "threshold": 0,
+   "changed_lists": 18,
+   "lists": 100,
+   "max_abs": 0.0011356920003890991
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 96,
+   "union": 97
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 1,
+  "val_accuracy": 0.5,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 94,
+   "union": 94
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 2,
+  "val_accuracy": 0.6097561120986938,
+  "topology": "attached",
+  "union": {
+   "flips": 2,
+   "threshold": 0,
+   "changed_lists": 13,
+   "lists": 100,
+   "max_abs": 0.001622423529624939
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 101,
+   "union": 101
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "gcn",
+  "layers": 1,
+  "seed": 2,
+  "val_accuracy": 0.6097561120986938,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 100,
+   "union": 100
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 0,
+  "val_accuracy": 0.4878048896789551,
+  "topology": "attached",
+  "union": {
+   "flips": 27,
+   "threshold": 8,
+   "changed_lists": 21,
+   "lists": 100,
+   "max_abs": 0.19269314408302307
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 90,
+   "union": 87
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 0,
+  "val_accuracy": 0.4878048896789551,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 89,
+   "union": 89
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 1,
+  "val_accuracy": 0.5609756112098694,
+  "topology": "attached",
+  "union": {
+   "flips": 30,
+   "threshold": 2,
+   "changed_lists": 29,
+   "lists": 100,
+   "max_abs": 0.14175543189048767
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 92,
+   "union": 86
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 1,
+  "val_accuracy": 0.5609756112098694,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 92,
+   "union": 92
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 2,
+  "val_accuracy": 0.6341463327407837,
+  "topology": "attached",
+  "union": {
+   "flips": 14,
+   "threshold": 0,
+   "changed_lists": 23,
+   "lists": 100,
+   "max_abs": 0.06340868771076202
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 73,
+   "union": 75
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "gcn",
+  "layers": 2,
+  "seed": 2,
+  "val_accuracy": 0.6341463327407837,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 73,
+   "union": 73
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "sage",
+  "layers": 1,
+  "seed": 0,
+  "val_accuracy": 0.4390243887901306,
+  "topology": "attached",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 67,
+   "union": 67
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "sage",
+  "layers": 1,
+  "seed": 0,
+  "val_accuracy": 0.4390243887901306,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 62,
+   "union": 62
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "sage",
+  "layers": 1,
+  "seed": 1,
+  "val_accuracy": 0.5,
+  "topology": "attached",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 81,
+   "union": 81
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "sage",
+  "layers": 1,
+  "seed": 1,
+  "val_accuracy": 0.5,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 78,
+   "union": 78
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "sage",
+  "layers": 1,
+  "seed": 2,
+  "val_accuracy": 0.5731707215309143,
+  "topology": "attached",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 89,
+   "union": 89
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "sage",
+  "layers": 1,
+  "seed": 2,
+  "val_accuracy": 0.5731707215309143,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 84,
+   "union": 84
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "sage",
+  "layers": 2,
+  "seed": 0,
+  "val_accuracy": 0.46341463923454285,
+  "topology": "attached",
+  "union": {
+   "flips": 12,
+   "threshold": 1,
+   "changed_lists": 21,
+   "lists": 100,
+   "max_abs": 0.07253718376159668
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 78,
+   "union": 78
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "sage",
+  "layers": 2,
+  "seed": 0,
+  "val_accuracy": 0.46341463923454285,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 68,
+   "union": 68
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "sage",
+  "layers": 2,
+  "seed": 1,
+  "val_accuracy": 0.5487805008888245,
+  "topology": "attached",
+  "union": {
+   "flips": 2,
+   "threshold": 1,
+   "changed_lists": 6,
+   "lists": 100,
+   "max_abs": 0.056974902749061584
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 55,
+   "union": 55
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "sage",
+  "layers": 2,
+  "seed": 1,
+  "val_accuracy": 0.5487805008888245,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 70,
+   "union": 70
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "sage",
+  "layers": 2,
+  "seed": 2,
+  "val_accuracy": 0.6219512224197388,
+  "topology": "attached",
+  "union": {
+   "flips": 1,
+   "threshold": 0,
+   "changed_lists": 13,
+   "lists": 100,
+   "max_abs": 0.042807817459106445
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 75,
+   "union": 76
+  }
+ },
+ {
+  "task": "chameleon",
+  "model": "sage",
+  "layers": 2,
+  "seed": 2,
+  "val_accuracy": 0.6219512224197388,
+  "topology": "cut",
+  "union": {
+   "flips": 0,
+   "threshold": 0,
+   "changed_lists": 0,
+   "lists": 100,
+   "max_abs": 0.0
+  },
+  "axis": {
+   "flips": 0,
+   "max_abs": 0.0
+  },
+  "n": 320,
+  "accuracy": {
+   "separate": 68,
+   "union": 68
+  }
+ }
+]

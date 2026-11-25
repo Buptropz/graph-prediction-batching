@@ -1,0 +1,3332 @@
+[
+ {
+  "support": 32,
+  "request": 16,
+  "fan": 2,
+  "nodes": 64,
+  "cross_edges": 0,
+  "times": {
+   "separate": [
+    86.261824,
+    85.732305,
+    86.310044
+   ],
+   "union": [
+    45.176762,
+    44.296286,
+    44.060815
+   ],
+   "axis": [
+    45.90183,
+    45.801274,
+    45.30574
+   ]
+  },
+  "memory_mib": {
+   "separate": 148.64013671875,
+   "union": 149.25341796875,
+   "axis": 148.9013671875
+  },
+  "joint": {
+   "union": {
+    "n": 32,
+    "flips": 1,
+    "threshold": 2,
+    "lists": 6,
+    "changed_lists": 3,
+    "max_abs": 0.3921162188053131,
+    "tv": 0.029780642693289394
+   },
+   "axis": {
+    "n": 32,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 1.3932585716247559e-06,
+    "tv": 1.500532960108103e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.53125,
+   "union": 0.5625,
+   "axis": 0.53125
+  },
+  "support_fit": {
+   "union": {
+    "n": 32,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 6.377696990966797e-06,
+    "tv": 3.7503949101846956e-07
+   },
+   "axis": {
+    "n": 32,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 2.682209014892578e-06,
+    "tv": 2.3265545223694062e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 16,
+  "fan": 4,
+  "nodes": 96,
+  "cross_edges": 0,
+  "times": {
+   "separate": [
+    173.231886,
+    171.057924,
+    170.572923
+   ],
+   "union": [
+    44.691519,
+    44.830263,
+    45.139077
+   ],
+   "axis": [
+    51.318423,
+    52.344677,
+    51.24932
+   ]
+  },
+  "memory_mib": {
+   "separate": 148.64013671875,
+   "union": 150.482421875,
+   "axis": 151.140625
+  },
+  "joint": {
+   "union": {
+    "n": 64,
+    "flips": 7,
+    "threshold": 12,
+    "lists": 12,
+    "changed_lists": 6,
+    "max_abs": 0.7369883507490158,
+    "tv": 0.09190808018850483
+   },
+   "axis": {
+    "n": 64,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 3.069639205932617e-06,
+    "tv": 2.7058681961733555e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.609375,
+   "union": 0.59375,
+   "axis": 0.609375
+  },
+  "support_fit": {
+   "union": {
+    "n": 64,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 7.62939453125e-06,
+    "tv": 5.379517844517068e-07
+   },
+   "axis": {
+    "n": 64,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 4.589557647705078e-06,
+    "tv": 5.131377989187058e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 16,
+  "fan": 8,
+  "nodes": 160,
+  "cross_edges": 2,
+  "times": {
+   "separate": [
+    340.589766,
+    340.48025,
+    337.820557
+   ],
+   "union": [
+    46.820845,
+    45.595,
+    45.7901
+   ],
+   "axis": [
+    64.436698,
+    63.532608,
+    62.755555
+   ]
+  },
+  "memory_mib": {
+   "separate": 148.6953125,
+   "union": 153.0546875,
+   "axis": 155.62109375
+  },
+  "joint": {
+   "union": {
+    "n": 128,
+    "flips": 5,
+    "threshold": 12,
+    "lists": 24,
+    "changed_lists": 11,
+    "max_abs": 0.6670242846012115,
+    "tv": 0.059589374756504054
+   },
+   "axis": {
+    "n": 128,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 2.0265579223632812e-06,
+    "tv": 1.4712286500184746e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.515625,
+   "union": 0.4921875,
+   "axis": 0.515625
+  },
+  "support_fit": {
+   "union": {
+    "n": 128,
+    "flips": 2,
+    "threshold": 5,
+    "lists": 24,
+    "changed_lists": 2,
+    "max_abs": 0.23639178276062012,
+    "tv": 0.020762174877951622
+   },
+   "axis": {
+    "n": 128,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 2.3245811462402344e-06,
+    "tv": 1.422083997226764e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 16,
+  "fan": 16,
+  "nodes": 288,
+  "cross_edges": 2,
+  "times": {
+   "separate": [
+    681.415333,
+    683.286598,
+    674.535111
+   ],
+   "union": [
+    45.918153,
+    46.060232,
+    46.370286
+   ],
+   "axis": [
+    85.93162,
+    84.847441,
+    85.422841
+   ]
+  },
+  "memory_mib": {
+   "separate": 148.6953125,
+   "union": 157.97216796875,
+   "axis": 165.0791015625
+  },
+  "joint": {
+   "union": {
+    "n": 256,
+    "flips": 62,
+    "threshold": 117,
+    "lists": 48,
+    "changed_lists": 41,
+    "max_abs": 0.9837508397176862,
+    "tv": 0.23389934278803715
+   },
+   "axis": {
+    "n": 256,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 6.616115570068359e-06,
+    "tv": 2.607454439029766e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.484375,
+   "union": 0.5078125,
+   "axis": 0.484375
+  },
+  "support_fit": {
+   "union": {
+    "n": 256,
+    "flips": 17,
+    "threshold": 34,
+    "lists": 48,
+    "changed_lists": 16,
+    "max_abs": 0.7583520412445068,
+    "tv": 0.06639599643146443
+   },
+   "axis": {
+    "n": 256,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 5.364418029785156e-06,
+    "tv": 2.7862368412456817e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 16,
+  "fan": 32,
+  "nodes": 544,
+  "cross_edges": 8,
+  "times": {
+   "separate": [
+    1352.362796,
+    1363.952122,
+    1340.634578
+   ],
+   "union": [
+    46.927599,
+    46.473101,
+    47.153311
+   ],
+   "axis": [
+    131.131186,
+    133.49041,
+    129.677601
+   ]
+  },
+  "memory_mib": {
+   "separate": 148.6953125,
+   "union": 169.29248046875,
+   "axis": 183.49609375
+  },
+  "joint": {
+   "union": {
+    "n": 512,
+    "flips": 85,
+    "threshold": 162,
+    "lists": 96,
+    "changed_lists": 56,
+    "max_abs": 0.9786324382293969,
+    "tv": 0.16042226880676824
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 7.510185241699219e-06,
+    "tv": 3.3435281249802155e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.623046875,
+   "union": 0.56640625,
+   "axis": 0.623046875
+  },
+  "support_fit": {
+   "union": {
+    "n": 512,
+    "flips": 26,
+    "threshold": 49,
+    "lists": 96,
+    "changed_lists": 23,
+    "max_abs": 0.7175304964184761,
+    "tv": 0.057321635815873385
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 9.328126907348633e-06,
+    "tv": 4.0187833966242106e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 64,
+  "fan": 2,
+  "nodes": 160,
+  "cross_edges": 8,
+  "times": {
+   "separate": [
+    87.970441,
+    87.493588,
+    88.339766
+   ],
+   "union": [
+    44.984311,
+    45.288703,
+    45.42202
+   ],
+   "axis": [
+    47.205027,
+    46.418138,
+    46.651322
+   ]
+  },
+  "memory_mib": {
+   "separate": 150.59423828125,
+   "union": 153.1650390625,
+   "axis": 150.89208984375
+  },
+  "joint": {
+   "union": {
+    "n": 128,
+    "flips": 19,
+    "threshold": 35,
+    "lists": 6,
+    "changed_lists": 3,
+    "max_abs": 0.7865408807992935,
+    "tv": 0.12264405065835915
+   },
+   "axis": {
+    "n": 128,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 4.589557647705078e-06,
+    "tv": 2.9511365640111364e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.5234375,
+   "union": 0.5625,
+   "axis": 0.5234375
+  },
+  "support_fit": {
+   "union": {
+    "n": 128,
+    "flips": 2,
+    "threshold": 4,
+    "lists": 6,
+    "changed_lists": 2,
+    "max_abs": 0.5390896499156952,
+    "tv": 0.021719188082715557
+   },
+   "axis": {
+    "n": 128,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 4.172325134277344e-06,
+    "tv": 2.626995283527833e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 64,
+  "fan": 4,
+  "nodes": 288,
+  "cross_edges": 2,
+  "times": {
+   "separate": [
+    171.390199,
+    172.055948,
+    172.408823
+   ],
+   "union": [
+    45.867738,
+    45.608432,
+    46.228745
+   ],
+   "axis": [
+    52.110716,
+    52.101864,
+    52.242612
+   ]
+  },
+  "memory_mib": {
+   "separate": 150.53955078125,
+   "union": 157.97216796875,
+   "axis": 155.11767578125
+  },
+  "joint": {
+   "union": {
+    "n": 256,
+    "flips": 22,
+    "threshold": 47,
+    "lists": 12,
+    "changed_lists": 6,
+    "max_abs": 0.8029415085911751,
+    "tv": 0.11151145095013215
+   },
+   "axis": {
+    "n": 256,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 2.7418136596679688e-06,
+    "tv": 2.5768250333513265e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.5,
+   "union": 0.49609375,
+   "axis": 0.5
+  },
+  "support_fit": {
+   "union": {
+    "n": 256,
+    "flips": 12,
+    "threshold": 24,
+    "lists": 12,
+    "changed_lists": 3,
+    "max_abs": 0.6707403659820557,
+    "tv": 0.05832744263231682
+   },
+   "axis": {
+    "n": 256,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 3.933906555175781e-06,
+    "tv": 3.8063544849364916e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 64,
+  "fan": 8,
+  "nodes": 544,
+  "cross_edges": 2,
+  "times": {
+   "separate": [
+    364.013562,
+    339.299101,
+    339.736192
+   ],
+   "union": [
+    47.128697,
+    46.556288,
+    46.393533
+   ],
+   "axis": [
+    65.339563,
+    64.645616,
+    63.593294
+   ]
+  },
+  "memory_mib": {
+   "separate": 150.59423828125,
+   "union": 169.33154296875,
+   "axis": 164.07080078125
+  },
+  "joint": {
+   "union": {
+    "n": 512,
+    "flips": 69,
+    "threshold": 134,
+    "lists": 24,
+    "changed_lists": 16,
+    "max_abs": 0.9022624157369137,
+    "tv": 0.12429147145626912
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 5.245208740234375e-06,
+    "tv": 3.3876416771772e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.548828125,
+   "union": 0.541015625,
+   "axis": 0.548828125
+  },
+  "support_fit": {
+   "union": {
+    "n": 512,
+    "flips": 46,
+    "threshold": 93,
+    "lists": 24,
+    "changed_lists": 5,
+    "max_abs": 0.5619564354419708,
+    "tv": 0.07648411049292692
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 3.3974647521972656e-06,
+    "tv": 4.2526980947865667e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 64,
+  "fan": 16,
+  "nodes": 1056,
+  "cross_edges": 14,
+  "times": {
+   "separate": [
+    721.370666,
+    681.552823,
+    682.395812
+   ],
+   "union": [
+    47.505694,
+    49.465479,
+    49.206181
+   ],
+   "axis": [
+    90.242915,
+    89.471923,
+    90.413057
+   ]
+  },
+  "memory_mib": {
+   "separate": 150.64892578125,
+   "union": 188.66748046875,
+   "axis": 181.4794921875
+  },
+  "joint": {
+   "union": {
+    "n": 1024,
+    "flips": 168,
+    "threshold": 332,
+    "lists": 48,
+    "changed_lists": 43,
+    "max_abs": 0.9898650776594877,
+    "tv": 0.1607234978245087
+   },
+   "axis": {
+    "n": 1024,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 5.736947059631348e-06,
+    "tv": 3.5708743081029615e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.5400390625,
+   "union": 0.515625,
+   "axis": 0.5400390625
+  },
+  "support_fit": {
+   "union": {
+    "n": 1024,
+    "flips": 62,
+    "threshold": 121,
+    "lists": 48,
+    "changed_lists": 30,
+    "max_abs": 0.7918038815259933,
+    "tv": 0.07203399562214399
+   },
+   "axis": {
+    "n": 1024,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 6.884336471557617e-06,
+    "tv": 3.764407201750468e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 64,
+  "fan": 32,
+  "nodes": 2080,
+  "cross_edges": 32,
+  "times": {
+   "separate": [
+    1411.029619,
+    1372.223708,
+    1376.171097
+   ],
+   "union": [
+    50.297994,
+    50.619481,
+    50.075059
+   ],
+   "axis": [
+    139.775484,
+    139.833277,
+    142.946803
+   ]
+  },
+  "memory_mib": {
+   "separate": 150.70361328125,
+   "union": 229.39306640625,
+   "axis": 214.95166015625
+  },
+  "joint": {
+   "union": {
+    "n": 2048,
+    "flips": 586,
+    "threshold": 1165,
+    "lists": 96,
+    "changed_lists": 76,
+    "max_abs": 0.9995653087098617,
+    "tv": 0.28157012826909594
+   },
+   "axis": {
+    "n": 2048,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 8.463859558105469e-06,
+    "tv": 4.0314915225169584e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.572265625,
+   "union": 0.58642578125,
+   "axis": 0.572265625
+  },
+  "support_fit": {
+   "union": {
+    "n": 2048,
+    "flips": 170,
+    "threshold": 347,
+    "lists": 96,
+    "changed_lists": 47,
+    "max_abs": 0.9367716461420059,
+    "tv": 0.08909586397052312
+   },
+   "axis": {
+    "n": 2048,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 8.404254913330078e-06,
+    "tv": 4.342708181000448e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 256,
+  "fan": 2,
+  "nodes": 544,
+  "cross_edges": 8,
+  "times": {
+   "separate": [
+    90.910772,
+    90.294414,
+    90.814392
+   ],
+   "union": [
+    47.211786,
+    47.705323,
+    47.666746
+   ],
+   "axis": [
+    48.236886,
+    48.194135,
+    48.279229
+   ]
+  },
+  "memory_mib": {
+   "separate": 158.63232421875,
+   "union": 170.041015625,
+   "axis": 159.724609375
+  },
+  "joint": {
+   "union": {
+    "n": 512,
+    "flips": 44,
+    "threshold": 90,
+    "lists": 6,
+    "changed_lists": 2,
+    "max_abs": 0.8471377789974213,
+    "tv": 0.08148156739401258
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 5.364418029785156e-06,
+    "tv": 3.101353480972069e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.650390625,
+   "union": 0.65625,
+   "axis": 0.650390625
+  },
+  "support_fit": {
+   "union": {
+    "n": 512,
+    "flips": 9,
+    "threshold": 23,
+    "lists": 6,
+    "changed_lists": 1,
+    "max_abs": 0.5345509350299835,
+    "tv": 0.01800672679760574
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 7.68899917602539e-06,
+    "tv": 4.19033017437509e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 256,
+  "fan": 4,
+  "nodes": 1056,
+  "cross_edges": 2,
+  "times": {
+   "separate": [
+    178.481204,
+    179.26341,
+    178.020923
+   ],
+   "union": [
+    48.332161,
+    48.344132,
+    47.947667
+   ],
+   "axis": [
+    54.376967,
+    55.415824,
+    55.434637
+   ]
+  },
+  "memory_mib": {
+   "separate": 158.41259765625,
+   "union": 190.47509765625,
+   "axis": 171.0283203125
+  },
+  "joint": {
+   "union": {
+    "n": 1024,
+    "flips": 75,
+    "threshold": 136,
+    "lists": 12,
+    "changed_lists": 10,
+    "max_abs": 0.8502785414457321,
+    "tv": 0.0641769617058649
+   },
+   "axis": {
+    "n": 1024,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 6.318092346191406e-06,
+    "tv": 3.2463156623974143e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.56640625,
+   "union": 0.5458984375,
+   "axis": 0.56640625
+  },
+  "support_fit": {
+   "union": {
+    "n": 1024,
+    "flips": 33,
+    "threshold": 52,
+    "lists": 12,
+    "changed_lists": 2,
+    "max_abs": 0.2502254545688629,
+    "tv": 0.02357337154542335
+   },
+   "axis": {
+    "n": 1024,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 1.138448715209961e-05,
+    "tv": 7.982301381791179e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 256,
+  "fan": 8,
+  "nodes": 2080,
+  "cross_edges": 34,
+  "times": {
+   "separate": [
+    349.862364,
+    355.18087,
+    350.847253
+   ],
+   "union": [
+    49.246912,
+    49.306016,
+    49.829864
+   ],
+   "axis": [
+    68.32402,
+    68.621675,
+    68.844031
+   ]
+  },
+  "memory_mib": {
+   "separate": 158.68701171875,
+   "union": 231.490234375,
+   "axis": 195.38818359375
+  },
+  "joint": {
+   "union": {
+    "n": 2048,
+    "flips": 237,
+    "threshold": 458,
+    "lists": 24,
+    "changed_lists": 18,
+    "max_abs": 0.9788073597010225,
+    "tv": 0.11953505603011608
+   },
+   "axis": {
+    "n": 2048,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 7.212162017822266e-06,
+    "tv": 3.239897954432965e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.52197265625,
+   "union": 0.53759765625,
+   "axis": 0.52197265625
+  },
+  "support_fit": {
+   "union": {
+    "n": 2048,
+    "flips": 275,
+    "threshold": 525,
+    "lists": 24,
+    "changed_lists": 16,
+    "max_abs": 0.9292245022952557,
+    "tv": 0.13480645830270505
+   },
+   "axis": {
+    "n": 2048,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 8.52346420288086e-06,
+    "tv": 4.5435242036848816e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 256,
+  "fan": 16,
+  "nodes": 4128,
+  "cross_edges": 62,
+  "times": {
+   "separate": [
+    697.144127,
+    702.351538,
+    695.878888
+   ],
+   "union": [
+    51.019622,
+    53.478618,
+    53.726469
+   ],
+   "axis": [
+    97.779423,
+    100.954383,
+    97.534903
+   ]
+  },
+  "memory_mib": {
+   "separate": 158.63232421875,
+   "union": 315.85107421875,
+   "axis": 244.34814453125
+  },
+  "joint": {
+   "union": {
+    "n": 4096,
+    "flips": 837,
+    "threshold": 1621,
+    "lists": 48,
+    "changed_lists": 46,
+    "max_abs": 0.9899504452478141,
+    "tv": 0.2118829599182587
+   },
+   "axis": {
+    "n": 4096,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 1.7344951629638672e-05,
+    "tv": 4.105426052209045e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.549072265625,
+   "union": 0.544677734375,
+   "axis": 0.549072265625
+  },
+  "support_fit": {
+   "union": {
+    "n": 4096,
+    "flips": 451,
+    "threshold": 876,
+    "lists": 48,
+    "changed_lists": 37,
+    "max_abs": 0.9807434044778347,
+    "tv": 0.12179724365847681
+   },
+   "axis": {
+    "n": 4096,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 9.119510650634766e-06,
+    "tv": 3.1759384419268247e-07
+   }
+  }
+ },
+ {
+  "support": 32,
+  "request": 256,
+  "fan": 32,
+  "nodes": 8224,
+  "cross_edges": 64,
+  "times": {
+   "separate": [
+    1414.118866,
+    1410.829673,
+    1411.872531
+   ],
+   "union": [
+    74.764182,
+    74.611267,
+    203.772483
+   ],
+   "axis": [
+    156.861728,
+    146.060164,
+    158.962536
+   ]
+  },
+  "memory_mib": {
+   "separate": 158.74169921875,
+   "union": 479.3857421875,
+   "axis": 341.541015625
+  },
+  "joint": {
+   "union": {
+    "n": 8192,
+    "flips": 1702,
+    "threshold": 3349,
+    "lists": 96,
+    "changed_lists": 87,
+    "max_abs": 0.9991204696998466,
+    "tv": 0.20837515216271643
+   },
+   "axis": {
+    "n": 8192,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 1.817941665649414e-05,
+    "tv": 4.3378010968170115e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.540771484375,
+   "union": 0.5574951171875,
+   "axis": 0.540771484375
+  },
+  "support_fit": {
+   "union": {
+    "n": 8192,
+    "flips": 219,
+    "threshold": 417,
+    "lists": 96,
+    "changed_lists": 84,
+    "max_abs": 0.9920728271827102,
+    "tv": 0.0270610561205042
+   },
+   "axis": {
+    "n": 8192,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 6.258487701416016e-06,
+    "tv": 9.250136100684035e-08
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 16,
+  "fan": 2,
+  "nodes": 160,
+  "cross_edges": 0,
+  "times": {
+   "separate": [
+    88.985827,
+    90.445302,
+    88.924216
+   ],
+   "union": [
+    45.564131,
+    61.07488,
+    45.934711
+   ],
+   "axis": [
+    47.208712,
+    47.262714,
+    47.074436
+   ]
+  },
+  "memory_mib": {
+   "separate": 152.81591796875,
+   "union": 153.43017578125,
+   "axis": 153.75732421875
+  },
+  "joint": {
+   "union": {
+    "n": 32,
+    "flips": 0,
+    "threshold": 1,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 0.1079135537147522,
+    "tv": 0.021583965216336765
+   },
+   "axis": {
+    "n": 32,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 1.8775463104248047e-06,
+    "tv": 4.1200678424502257e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.71875,
+   "union": 0.71875,
+   "axis": 0.71875
+  },
+  "support_fit": {
+   "union": {
+    "n": 32,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 1.0728836059570312e-06,
+    "tv": 3.3913420338649303e-07
+   },
+   "axis": {
+    "n": 32,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 1.4007091522216797e-06,
+    "tv": 3.4667323234316427e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 16,
+  "fan": 4,
+  "nodes": 192,
+  "cross_edges": 6,
+  "times": {
+   "separate": [
+    175.584438,
+    176.393854,
+    175.774977
+   ],
+   "union": [
+    46.393848,
+    46.583369,
+    46.755103
+   ],
+   "axis": [
+    53.725062,
+    54.34875,
+    54.100592
+   ]
+  },
+  "memory_mib": {
+   "separate": 152.92626953125,
+   "union": 154.8798828125,
+   "axis": 161.72412109375
+  },
+  "joint": {
+   "union": {
+    "n": 64,
+    "flips": 4,
+    "threshold": 9,
+    "lists": 12,
+    "changed_lists": 2,
+    "max_abs": 0.23681378364562988,
+    "tv": 0.03751275036008006
+   },
+   "axis": {
+    "n": 64,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 2.2351741790771484e-06,
+    "tv": 2.2322967263566085e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.78125,
+   "union": 0.71875,
+   "axis": 0.78125
+  },
+  "support_fit": {
+   "union": {
+    "n": 64,
+    "flips": 2,
+    "threshold": 4,
+    "lists": 12,
+    "changed_lists": 3,
+    "max_abs": 0.1718164086341858,
+    "tv": 0.025111384214113297
+   },
+   "axis": {
+    "n": 64,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 1.7881393432617188e-06,
+    "tv": 2.8540109575647676e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 16,
+  "fan": 8,
+  "nodes": 256,
+  "cross_edges": 2,
+  "times": {
+   "separate": [
+    345.473237,
+    348.239269,
+    349.632076
+   ],
+   "union": [
+    46.270693,
+    46.770348,
+    60.755602
+   ],
+   "axis": [
+    64.994785,
+    65.604999,
+    64.075735
+   ]
+  },
+  "memory_mib": {
+   "separate": 152.81591796875,
+   "union": 157.11865234375,
+   "axis": 177.03271484375
+  },
+  "joint": {
+   "union": {
+    "n": 128,
+    "flips": 12,
+    "threshold": 19,
+    "lists": 24,
+    "changed_lists": 10,
+    "max_abs": 0.4587765634059906,
+    "tv": 0.06987429894534714
+   },
+   "axis": {
+    "n": 128,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 2.1457672119140625e-06,
+    "tv": 2.6270259478877733e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.515625,
+   "union": 0.5,
+   "axis": 0.515625
+  },
+  "support_fit": {
+   "union": {
+    "n": 128,
+    "flips": 1,
+    "threshold": 1,
+    "lists": 24,
+    "changed_lists": 2,
+    "max_abs": 0.06511113047599792,
+    "tv": 0.008572493412446924
+   },
+   "axis": {
+    "n": 128,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 1.9371509552001953e-06,
+    "tv": 2.8353861925012325e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 16,
+  "fan": 16,
+  "nodes": 384,
+  "cross_edges": 6,
+  "times": {
+   "separate": [
+    679.954192,
+    678.590705,
+    678.670152
+   ],
+   "union": [
+    46.002065,
+    46.072528,
+    46.190496
+   ],
+   "axis": [
+    89.173221,
+    88.938244,
+    89.686774
+   ]
+  },
+  "memory_mib": {
+   "separate": 152.92626953125,
+   "union": 162.201171875,
+   "axis": 204.40087890625
+  },
+  "joint": {
+   "union": {
+    "n": 256,
+    "flips": 26,
+    "threshold": 54,
+    "lists": 48,
+    "changed_lists": 16,
+    "max_abs": 0.6706317216157913,
+    "tv": 0.08515684447817969
+   },
+   "axis": {
+    "n": 256,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 3.5762786865234375e-06,
+    "tv": 3.7270584257731443e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.70703125,
+   "union": 0.71484375,
+   "axis": 0.70703125
+  },
+  "support_fit": {
+   "union": {
+    "n": 256,
+    "flips": 1,
+    "threshold": 5,
+    "lists": 48,
+    "changed_lists": 5,
+    "max_abs": 0.0914841890335083,
+    "tv": 0.014226867645503849
+   },
+   "axis": {
+    "n": 256,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 2.562999725341797e-06,
+    "tv": 2.9712482618737823e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 16,
+  "fan": 32,
+  "nodes": 640,
+  "cross_edges": 30,
+  "times": {
+   "separate": [
+    1373.216776,
+    1385.728166,
+    1356.031261
+   ],
+   "union": [
+    46.595753,
+    47.123383,
+    47.420699
+   ],
+   "axis": [
+    133.140429,
+    132.103907,
+    136.316898
+   ]
+  },
+  "memory_mib": {
+   "separate": 152.92626953125,
+   "union": 173.640625,
+   "axis": 262.1240234375
+  },
+  "joint": {
+   "union": {
+    "n": 512,
+    "flips": 57,
+    "threshold": 113,
+    "lists": 96,
+    "changed_lists": 41,
+    "max_abs": 0.6834346204996109,
+    "tv": 0.10373264223538804
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 4.887580871582031e-06,
+    "tv": 3.5028801384506814e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.609375,
+   "union": 0.6171875,
+   "axis": 0.609375
+  },
+  "support_fit": {
+   "union": {
+    "n": 512,
+    "flips": 26,
+    "threshold": 52,
+    "lists": 96,
+    "changed_lists": 21,
+    "max_abs": 0.6841874271631241,
+    "tv": 0.05942240003173583
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 4.172325134277344e-06,
+    "tv": 2.994912065533428e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 64,
+  "fan": 2,
+  "nodes": 256,
+  "cross_edges": 10,
+  "times": {
+   "separate": [
+    87.234021,
+    89.803109,
+    89.961089
+   ],
+   "union": [
+    46.088666,
+    47.571492,
+    66.432569
+   ],
+   "axis": [
+    46.530785,
+    46.006672,
+    66.894795
+   ]
+  },
+  "memory_mib": {
+   "separate": 154.9892578125,
+   "union": 157.55810546875,
+   "axis": 155.62158203125
+  },
+  "joint": {
+   "union": {
+    "n": 128,
+    "flips": 4,
+    "threshold": 8,
+    "lists": 6,
+    "changed_lists": 1,
+    "max_abs": 0.21400585770606995,
+    "tv": 0.038913972134695385
+   },
+   "axis": {
+    "n": 128,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 1.9073486328125e-06,
+    "tv": 3.170314410994024e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.53125,
+   "union": 0.546875,
+   "axis": 0.53125
+  },
+  "support_fit": {
+   "union": {
+    "n": 128,
+    "flips": 4,
+    "threshold": 7,
+    "lists": 6,
+    "changed_lists": 1,
+    "max_abs": 0.20959287881851196,
+    "tv": 0.02699048276171201
+   },
+   "axis": {
+    "n": 128,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 1.9669532775878906e-06,
+    "tv": 3.3610650884696724e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 64,
+  "fan": 4,
+  "nodes": 384,
+  "cross_edges": 16,
+  "times": {
+   "separate": [
+    176.138835,
+    176.022083,
+    177.14048
+   ],
+   "union": [
+    47.257053,
+    47.58942,
+    47.163187
+   ],
+   "axis": [
+    54.438129,
+    54.190449,
+    54.601553
+   ]
+  },
+  "memory_mib": {
+   "separate": 154.71484375,
+   "union": 162.4755859375,
+   "axis": 165.07568359375
+  },
+  "joint": {
+   "union": {
+    "n": 256,
+    "flips": 29,
+    "threshold": 64,
+    "lists": 12,
+    "changed_lists": 6,
+    "max_abs": 0.5052207633852959,
+    "tv": 0.11713020794647916
+   },
+   "axis": {
+    "n": 256,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 3.3974647521972656e-06,
+    "tv": 4.563500529963793e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.61328125,
+   "union": 0.62890625,
+   "axis": 0.61328125
+  },
+  "support_fit": {
+   "union": {
+    "n": 256,
+    "flips": 7,
+    "threshold": 11,
+    "lists": 12,
+    "changed_lists": 6,
+    "max_abs": 0.23567771911621094,
+    "tv": 0.027627671395686837
+   },
+   "axis": {
+    "n": 256,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 2.950429916381836e-06,
+    "tv": 2.9340947155231945e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 64,
+  "fan": 8,
+  "nodes": 640,
+  "cross_edges": 38,
+  "times": {
+   "separate": [
+    350.397386,
+    348.357178,
+    342.498964
+   ],
+   "union": [
+    47.468664,
+    47.050075,
+    46.911823
+   ],
+   "axis": [
+    66.464233,
+    66.646923,
+    64.912928
+   ]
+  },
+  "memory_mib": {
+   "separate": 154.9345703125,
+   "union": 174.02685546875,
+   "axis": 183.48486328125
+  },
+  "joint": {
+   "union": {
+    "n": 512,
+    "flips": 64,
+    "threshold": 122,
+    "lists": 24,
+    "changed_lists": 13,
+    "max_abs": 0.5968830734491348,
+    "tv": 0.09583081857621811
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 3.1888484954833984e-06,
+    "tv": 3.1981078363330084e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.6484375,
+   "union": 0.685546875,
+   "axis": 0.6484375
+  },
+  "support_fit": {
+   "union": {
+    "n": 512,
+    "flips": 17,
+    "threshold": 27,
+    "lists": 24,
+    "changed_lists": 7,
+    "max_abs": 0.4693884328007698,
+    "tv": 0.028289674853073446
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 3.3080577850341797e-06,
+    "tv": 3.153939546612916e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 64,
+  "fan": 16,
+  "nodes": 1152,
+  "cross_edges": 30,
+  "times": {
+   "separate": [
+    682.604437,
+    680.723956,
+    680.766349
+   ],
+   "union": [
+    47.734579,
+    47.890097,
+    47.207022
+   ],
+   "axis": [
+    90.230101,
+    90.933777,
+    89.919964
+   ]
+  },
+  "memory_mib": {
+   "separate": 154.76953125,
+   "union": 192.58740234375,
+   "axis": 218.2958984375
+  },
+  "joint": {
+   "union": {
+    "n": 1024,
+    "flips": 82,
+    "threshold": 157,
+    "lists": 48,
+    "changed_lists": 25,
+    "max_abs": 0.7505005896091461,
+    "tv": 0.07599022377390237
+   },
+   "axis": {
+    "n": 1024,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 3.635883331298828e-06,
+    "tv": 3.5365389768754474e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.6181640625,
+   "union": 0.615234375,
+   "axis": 0.6181640625
+  },
+  "support_fit": {
+   "union": {
+    "n": 1024,
+    "flips": 38,
+    "threshold": 83,
+    "lists": 48,
+    "changed_lists": 12,
+    "max_abs": 0.5083106160163879,
+    "tv": 0.036050329819340435
+   },
+   "axis": {
+    "n": 1024,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 3.725290298461914e-06,
+    "tv": 3.2757800588756325e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 64,
+  "fan": 32,
+  "nodes": 2176,
+  "cross_edges": 86,
+  "times": {
+   "separate": [
+    1394.082472,
+    1378.670533,
+    1358.305748
+   ],
+   "union": [
+    49.168744,
+    49.346561,
+    49.663543
+   ],
+   "axis": [
+    141.12643,
+    143.965218,
+    141.16403
+   ]
+  },
+  "memory_mib": {
+   "separate": 154.9345703125,
+   "union": 235.35009765625,
+   "axis": 290.5927734375
+  },
+  "joint": {
+   "union": {
+    "n": 2048,
+    "flips": 484,
+    "threshold": 964,
+    "lists": 96,
+    "changed_lists": 78,
+    "max_abs": 0.9364489950239658,
+    "tv": 0.22277945543031513
+   },
+   "axis": {
+    "n": 2048,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 5.304813385009766e-06,
+    "tv": 3.0643423061180175e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.63427734375,
+   "union": 0.70703125,
+   "axis": 0.63427734375
+  },
+  "support_fit": {
+   "union": {
+    "n": 2048,
+    "flips": 230,
+    "threshold": 452,
+    "lists": 96,
+    "changed_lists": 49,
+    "max_abs": 0.8049697130918503,
+    "tv": 0.10526393008568966
+   },
+   "axis": {
+    "n": 2048,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 4.559755325317383e-06,
+    "tv": 2.7409396587130264e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 256,
+  "fan": 2,
+  "nodes": 640,
+  "cross_edges": 24,
+  "times": {
+   "separate": [
+    89.791188,
+    89.185196,
+    90.562745
+   ],
+   "union": [
+    46.661233,
+    46.34126,
+    47.649426
+   ],
+   "axis": [
+    47.61002,
+    47.382922,
+    49.403383
+   ]
+  },
+  "memory_mib": {
+   "separate": 164.05078125,
+   "union": 174.41162109375,
+   "axis": 164.08056640625
+  },
+  "joint": {
+   "union": {
+    "n": 512,
+    "flips": 16,
+    "threshold": 39,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 0.3341211974620819,
+    "tv": 0.036041773643893625
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 4.351139068603516e-06,
+    "tv": 3.5443916542726717e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.66796875,
+   "union": 0.66015625,
+   "axis": 0.66796875
+  },
+  "support_fit": {
+   "union": {
+    "n": 512,
+    "flips": 7,
+    "threshold": 13,
+    "lists": 6,
+    "changed_lists": 1,
+    "max_abs": 0.22985345125198364,
+    "tv": 0.014342004583438286
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 4.4405460357666016e-06,
+    "tv": 2.901542914234001e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 256,
+  "fan": 4,
+  "nodes": 1152,
+  "cross_edges": 52,
+  "times": {
+   "separate": [
+    175.55027,
+    175.872573,
+    174.816849
+   ],
+   "union": [
+    47.821587,
+    47.553346,
+    47.34781
+   ],
+   "axis": [
+    54.298131,
+    58.964946,
+    53.882549
+   ]
+  },
+  "memory_mib": {
+   "separate": 162.97216796875,
+   "union": 194.56787109375,
+   "axis": 180.48779296875
+  },
+  "joint": {
+   "union": {
+    "n": 1024,
+    "flips": 87,
+    "threshold": 173,
+    "lists": 12,
+    "changed_lists": 9,
+    "max_abs": 0.5550918877124786,
+    "tv": 0.07881015752730253
+   },
+   "axis": {
+    "n": 1024,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 5.662441253662109e-06,
+    "tv": 4.212017350110897e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.671875,
+   "union": 0.6826171875,
+   "axis": 0.671875
+  },
+  "support_fit": {
+   "union": {
+    "n": 1024,
+    "flips": 87,
+    "threshold": 171,
+    "lists": 12,
+    "changed_lists": 2,
+    "max_abs": 0.6232449114322662,
+    "tv": 0.0872421837442012
+   },
+   "axis": {
+    "n": 1024,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 4.649162292480469e-06,
+    "tv": 5.416050445411144e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 256,
+  "fan": 8,
+  "nodes": 2176,
+  "cross_edges": 130,
+  "times": {
+   "separate": [
+    348.763265,
+    346.559024,
+    347.3553
+   ],
+   "union": [
+    49.674125,
+    49.688554,
+    50.032448
+   ],
+   "axis": [
+    68.247964,
+    68.801469,
+    69.124766
+   ]
+  },
+  "memory_mib": {
+   "separate": 164.04296875,
+   "union": 240.49267578125,
+   "axis": 214.962890625
+  },
+  "joint": {
+   "union": {
+    "n": 2048,
+    "flips": 218,
+    "threshold": 429,
+    "lists": 24,
+    "changed_lists": 18,
+    "max_abs": 0.9728417783044279,
+    "tv": 0.10575647093636112
+   },
+   "axis": {
+    "n": 2048,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 5.066394805908203e-06,
+    "tv": 3.1231458477026797e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.646484375,
+   "union": 0.673828125,
+   "axis": 0.646484375
+  },
+  "support_fit": {
+   "union": {
+    "n": 2048,
+    "flips": 164,
+    "threshold": 328,
+    "lists": 24,
+    "changed_lists": 12,
+    "max_abs": 0.7481688410043716,
+    "tv": 0.07891580774313924
+   },
+   "axis": {
+    "n": 2048,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 3.7550926208496094e-06,
+    "tv": 2.8433947153044814e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 256,
+  "fan": 16,
+  "nodes": 4224,
+  "cross_edges": 224,
+  "times": {
+   "separate": [
+    699.250853,
+    703.85926,
+    705.966172
+   ],
+   "union": [
+    55.798199,
+    55.085886,
+    59.108235
+   ],
+   "axis": [
+    99.545572,
+    97.853918,
+    99.8488
+   ]
+  },
+  "memory_mib": {
+   "separate": 164.06640625,
+   "union": 322.66357421875,
+   "axis": 281.92529296875
+  },
+  "joint": {
+   "union": {
+    "n": 4096,
+    "flips": 709,
+    "threshold": 1403,
+    "lists": 48,
+    "changed_lists": 39,
+    "max_abs": 0.9657348580658436,
+    "tv": 0.16979245773260987
+   },
+   "axis": {
+    "n": 4096,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 6.0498714447021484e-06,
+    "tv": 3.5414173738673727e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.66259765625,
+   "union": 0.688232421875,
+   "axis": 0.66259765625
+  },
+  "support_fit": {
+   "union": {
+    "n": 4096,
+    "flips": 665,
+    "threshold": 1327,
+    "lists": 48,
+    "changed_lists": 35,
+    "max_abs": 0.9973465758375823,
+    "tv": 0.15378948398500167
+   },
+   "axis": {
+    "n": 4096,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 5.662441253662109e-06,
+    "tv": 3.6079680399000655e-07
+   }
+  }
+ },
+ {
+  "support": 128,
+  "request": 256,
+  "fan": 32,
+  "nodes": 8320,
+  "cross_edges": 472,
+  "times": {
+   "separate": [
+    1396.025613,
+    1391.698439,
+    1413.659952
+   ],
+   "union": [
+    78.906613,
+    77.750072,
+    209.367088
+   ],
+   "axis": [
+    159.708779,
+    160.337175,
+    166.917286
+   ]
+  },
+  "memory_mib": {
+   "separate": 164.05859375,
+   "union": 492.7373046875,
+   "axis": 417.18505859375
+  },
+  "joint": {
+   "union": {
+    "n": 8192,
+    "flips": 1415,
+    "threshold": 2735,
+    "lists": 96,
+    "changed_lists": 94,
+    "max_abs": 0.9689767714589834,
+    "tv": 0.15934032642079798
+   },
+   "axis": {
+    "n": 8192,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 4.976987838745117e-06,
+    "tv": 4.075810273577486e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.6871337890625,
+   "union": 0.6798095703125,
+   "axis": 0.6871337890625
+  },
+  "support_fit": {
+   "union": {
+    "n": 8192,
+    "flips": 944,
+    "threshold": 1864,
+    "lists": 96,
+    "changed_lists": 88,
+    "max_abs": 0.9889807710424066,
+    "tv": 0.1036458947908343
+   },
+   "axis": {
+    "n": 8192,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 5.111098289489746e-06,
+    "tv": 4.318740381456347e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 16,
+  "fan": 2,
+  "nodes": 544,
+  "cross_edges": 8,
+  "times": {
+   "separate": [
+    88.395658,
+    88.955134,
+    88.708498
+   ],
+   "union": [
+    45.972859,
+    45.972634,
+    45.825325
+   ],
+   "axis": [
+    46.539357,
+    51.434029,
+    46.482045
+   ]
+  },
+  "memory_mib": {
+   "separate": 172.14013671875,
+   "union": 172.63330078125,
+   "axis": 185.12255859375
+  },
+  "joint": {
+   "union": {
+    "n": 32,
+    "flips": 1,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 0.017349541187286377,
+    "tv": 0.002892849733028058
+   },
+   "axis": {
+    "n": 32,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 9.5367431640625e-07,
+    "tv": 1.54761481852006e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.75,
+   "union": 0.78125,
+   "axis": 0.75
+  },
+  "support_fit": {
+   "union": {
+    "n": 32,
+    "flips": 1,
+    "threshold": 1,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 0.010065972805023193,
+    "tv": 0.0013683190425020086
+   },
+   "axis": {
+    "n": 32,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 7.450580596923828e-07,
+    "tv": 1.816886481265101e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 16,
+  "fan": 4,
+  "nodes": 576,
+  "cross_edges": 12,
+  "times": {
+   "separate": [
+    177.118373,
+    176.106434,
+    174.489267
+   ],
+   "union": [
+    46.947809,
+    45.620914,
+    45.735655
+   ],
+   "axis": [
+    54.55542,
+    53.17737,
+    53.208284
+   ]
+  },
+  "memory_mib": {
+   "separate": 172.33740234375,
+   "union": 174.18115234375,
+   "axis": 221.93896484375
+  },
+  "joint": {
+   "union": {
+    "n": 64,
+    "flips": 0,
+    "threshold": 1,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 0.0611344575881958,
+    "tv": 0.0140353325380147
+   },
+   "axis": {
+    "n": 64,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 9.5367431640625e-07,
+    "tv": 2.036208037736742e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.703125,
+   "union": 0.703125,
+   "axis": 0.703125
+  },
+  "support_fit": {
+   "union": {
+    "n": 64,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 0.059965938329696655,
+    "tv": 0.010702721053821307
+   },
+   "axis": {
+    "n": 64,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 8.940696716308594e-07,
+    "tv": 1.9472142831489236e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 16,
+  "fan": 8,
+  "nodes": 640,
+  "cross_edges": 26,
+  "times": {
+   "separate": [
+    346.21291,
+    347.724032,
+    347.769923
+   ],
+   "union": [
+    45.82204,
+    46.344457,
+    47.099789
+   ],
+   "axis": [
+    65.75993,
+    68.920743,
+    67.845457
+   ]
+  },
+  "memory_mib": {
+   "separate": 172.21826171875,
+   "union": 178.4287109375,
+   "axis": 296.94482421875
+  },
+  "joint": {
+   "union": {
+    "n": 128,
+    "flips": 12,
+    "threshold": 18,
+    "lists": 24,
+    "changed_lists": 5,
+    "max_abs": 0.14973151683807373,
+    "tv": 0.028681870105464746
+   },
+   "axis": {
+    "n": 128,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 1.341104507446289e-06,
+    "tv": 2.595321229037495e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.625,
+   "union": 0.609375,
+   "axis": 0.625
+  },
+  "support_fit": {
+   "union": {
+    "n": 128,
+    "flips": 9,
+    "threshold": 16,
+    "lists": 24,
+    "changed_lists": 2,
+    "max_abs": 0.15419453382492065,
+    "tv": 0.02610287300986247
+   },
+   "axis": {
+    "n": 128,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 1.3709068298339844e-06,
+    "tv": 2.8340360458400937e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 16,
+  "fan": 16,
+  "nodes": 768,
+  "cross_edges": 40,
+  "times": {
+   "separate": [
+    699.418459,
+    693.383101,
+    698.423931
+   ],
+   "union": [
+    45.952024,
+    47.314925,
+    49.495617
+   ],
+   "axis": [
+    93.15375,
+    94.315042,
+    114.10391
+   ]
+  },
+  "memory_mib": {
+   "separate": 172.02197265625,
+   "union": 181.48974609375,
+   "axis": 447.201171875
+  },
+  "joint": {
+   "union": {
+    "n": 256,
+    "flips": 8,
+    "threshold": 10,
+    "lists": 48,
+    "changed_lists": 10,
+    "max_abs": 0.21651029586791992,
+    "tv": 0.028279841290618557
+   },
+   "axis": {
+    "n": 256,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 2.3245811462402344e-06,
+    "tv": 2.591718586408831e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.73828125,
+   "union": 0.765625,
+   "axis": 0.73828125
+  },
+  "support_fit": {
+   "union": {
+    "n": 256,
+    "flips": 1,
+    "threshold": 8,
+    "lists": 48,
+    "changed_lists": 6,
+    "max_abs": 0.11652165651321411,
+    "tv": 0.017151672363057258
+   },
+   "axis": {
+    "n": 256,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 1.6689300537109375e-06,
+    "tv": 2.608245264212883e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 16,
+  "fan": 32,
+  "nodes": 1024,
+  "cross_edges": 84,
+  "times": {
+   "separate": [
+    1423.943003,
+    1401.938595,
+    1411.077662
+   ],
+   "union": [
+    54.847387,
+    47.910291,
+    47.078725
+   ],
+   "axis": [
+    168.301881,
+    168.723748,
+    167.282429
+   ]
+  },
+  "memory_mib": {
+   "separate": 171.626953125,
+   "union": 192.58056640625,
+   "axis": 747.68603515625
+  },
+  "joint": {
+   "union": {
+    "n": 512,
+    "flips": 54,
+    "threshold": 107,
+    "lists": 96,
+    "changed_lists": 37,
+    "max_abs": 0.5120548903942108,
+    "tv": 0.08562332371961011
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 2.205371856689453e-06,
+    "tv": 2.6116202269527156e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.615234375,
+   "union": 0.66796875,
+   "axis": 0.615234375
+  },
+  "support_fit": {
+   "union": {
+    "n": 512,
+    "flips": 29,
+    "threshold": 65,
+    "lists": 96,
+    "changed_lists": 33,
+    "max_abs": 0.4044994115829468,
+    "tv": 0.06346223589301318
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 1.7881393432617188e-06,
+    "tv": 2.616362236931846e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 64,
+  "fan": 2,
+  "nodes": 640,
+  "cross_edges": 34,
+  "times": {
+   "separate": [
+    90.404212,
+    90.031643,
+    89.888975
+   ],
+   "union": [
+    46.83958,
+    46.67215,
+    46.393006
+   ],
+   "axis": [
+    47.444886,
+    47.48998,
+    47.089982
+   ]
+  },
+  "memory_mib": {
+   "separate": 174.6416015625,
+   "union": 178.43017578125,
+   "axis": 186.05322265625
+  },
+  "joint": {
+   "union": {
+    "n": 128,
+    "flips": 2,
+    "threshold": 6,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 0.09514865279197693,
+    "tv": 0.014678187592705783
+   },
+   "axis": {
+    "n": 128,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 1.4901161193847656e-06,
+    "tv": 2.4375837881507323e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.71875,
+   "union": 0.703125,
+   "axis": 0.71875
+  },
+  "support_fit": {
+   "union": {
+    "n": 128,
+    "flips": 1,
+    "threshold": 1,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 0.08304718136787415,
+    "tv": 0.011086612855578437
+   },
+   "axis": {
+    "n": 128,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 1.2516975402832031e-06,
+    "tv": 2.590092726961757e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 64,
+  "fan": 4,
+  "nodes": 768,
+  "cross_edges": 78,
+  "times": {
+   "separate": [
+    176.703412,
+    178.56616,
+    177.648495
+   ],
+   "union": [
+    46.38192,
+    47.948448,
+    46.3715
+   ],
+   "axis": [
+    53.724029,
+    67.851513,
+    54.056606
+   ]
+  },
+  "memory_mib": {
+   "separate": 174.845703125,
+   "union": 184.2451171875,
+   "axis": 224.42041015625
+  },
+  "joint": {
+   "union": {
+    "n": 256,
+    "flips": 4,
+    "threshold": 16,
+    "lists": 12,
+    "changed_lists": 3,
+    "max_abs": 0.17169636487960815,
+    "tv": 0.025140667605769718
+   },
+   "axis": {
+    "n": 256,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 1.5795230865478516e-06,
+    "tv": 2.0188478755400752e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.79296875,
+   "union": 0.78515625,
+   "axis": 0.79296875
+  },
+  "support_fit": {
+   "union": {
+    "n": 256,
+    "flips": 9,
+    "threshold": 17,
+    "lists": 12,
+    "changed_lists": 1,
+    "max_abs": 0.15610525012016296,
+    "tv": 0.025798168029162127
+   },
+   "axis": {
+    "n": 256,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 1.9669532775878906e-06,
+    "tv": 1.9995083100354805e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 64,
+  "fan": 8,
+  "nodes": 1024,
+  "cross_edges": 108,
+  "times": {
+   "separate": [
+    380.126332,
+    353.856539,
+    349.643672
+   ],
+   "union": [
+    47.763946,
+    47.28298,
+    47.185265
+   ],
+   "axis": [
+    67.913122,
+    68.986997,
+    66.354897
+   ]
+  },
+  "memory_mib": {
+   "separate": 173.77294921875,
+   "union": 193.17041015625,
+   "axis": 302.140625
+  },
+  "joint": {
+   "union": {
+    "n": 512,
+    "flips": 29,
+    "threshold": 54,
+    "lists": 24,
+    "changed_lists": 5,
+    "max_abs": 0.41973569989204407,
+    "tv": 0.04464025435762242
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 2.1457672119140625e-06,
+    "tv": 2.424988811977613e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.75,
+   "union": 0.751953125,
+   "axis": 0.75
+  },
+  "support_fit": {
+   "union": {
+    "n": 512,
+    "flips": 13,
+    "threshold": 25,
+    "lists": 24,
+    "changed_lists": 4,
+    "max_abs": 0.2930038869380951,
+    "tv": 0.026652098042453998
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 2.384185791015625e-06,
+    "tv": 2.6097832250826514e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 64,
+  "fan": 16,
+  "nodes": 1536,
+  "cross_edges": 246,
+  "times": {
+   "separate": [
+    711.559849,
+    761.291998,
+    701.162323
+   ],
+   "union": [
+    49.576244,
+    53.297581,
+    52.683282
+   ],
+   "axis": [
+    97.622112,
+    97.678968,
+    112.74943
+   ]
+  },
+  "memory_mib": {
+   "separate": 174.38525390625,
+   "union": 216.43994140625,
+   "axis": 453.60888671875
+  },
+  "joint": {
+   "union": {
+    "n": 1024,
+    "flips": 70,
+    "threshold": 148,
+    "lists": 48,
+    "changed_lists": 21,
+    "max_abs": 0.8129677176475525,
+    "tv": 0.04962578178933043
+   },
+   "axis": {
+    "n": 1024,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 1.9371509552001953e-06,
+    "tv": 3.043167413480097e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.626953125,
+   "union": 0.626953125,
+   "axis": 0.626953125
+  },
+  "support_fit": {
+   "union": {
+    "n": 1024,
+    "flips": 60,
+    "threshold": 135,
+    "lists": 48,
+    "changed_lists": 14,
+    "max_abs": 0.7965417951345444,
+    "tv": 0.04239482861271459
+   },
+   "axis": {
+    "n": 1024,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 2.4437904357910156e-06,
+    "tv": 3.0158747009456643e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 64,
+  "fan": 32,
+  "nodes": 2560,
+  "cross_edges": 514,
+  "times": {
+   "separate": [
+    1396.154064,
+    1402.678694,
+    1440.415494
+   ],
+   "union": [
+    50.750276,
+    50.882186,
+    51.98066
+   ],
+   "axis": [
+    172.114678,
+    174.110309,
+    175.384189
+   ]
+  },
+  "memory_mib": {
+   "separate": 174.33447265625,
+   "union": 264.81787109375,
+   "axis": 760.53515625
+  },
+  "joint": {
+   "union": {
+    "n": 2048,
+    "flips": 401,
+    "threshold": 799,
+    "lists": 96,
+    "changed_lists": 65,
+    "max_abs": 0.7815121784806252,
+    "tv": 0.16789585925069225
+   },
+   "axis": {
+    "n": 2048,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 2.950429916381836e-06,
+    "tv": 3.03065062129404e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.66162109375,
+   "union": 0.75048828125,
+   "axis": 0.66162109375
+  },
+  "support_fit": {
+   "union": {
+    "n": 2048,
+    "flips": 312,
+    "threshold": 622,
+    "lists": 96,
+    "changed_lists": 56,
+    "max_abs": 0.626528412103653,
+    "tv": 0.13374682895074813
+   },
+   "axis": {
+    "n": 2048,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 4.410743713378906e-06,
+    "tv": 2.8114629101183564e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 256,
+  "fan": 2,
+  "nodes": 1024,
+  "cross_edges": 138,
+  "times": {
+   "separate": [
+    90.34046,
+    90.695005,
+    90.022121
+   ],
+   "union": [
+    47.912898,
+    46.649154,
+    47.391457
+   ],
+   "axis": [
+    48.757979,
+    47.395628,
+    47.554187
+   ]
+  },
+  "memory_mib": {
+   "separate": 183.39501953125,
+   "union": 194.31396484375,
+   "axis": 190.51416015625
+  },
+  "joint": {
+   "union": {
+    "n": 512,
+    "flips": 26,
+    "threshold": 50,
+    "lists": 6,
+    "changed_lists": 1,
+    "max_abs": 0.263995885848999,
+    "tv": 0.032813412500607084
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 2.384185791015625e-06,
+    "tv": 2.4355698491351774e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.6953125,
+   "union": 0.71484375,
+   "axis": 0.6953125
+  },
+  "support_fit": {
+   "union": {
+    "n": 512,
+    "flips": 20,
+    "threshold": 31,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 0.22492170333862305,
+    "tv": 0.027646552293898147
+   },
+   "axis": {
+    "n": 512,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 6,
+    "changed_lists": 0,
+    "max_abs": 2.086162567138672e-06,
+    "tv": 2.833387557910072e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 256,
+  "fan": 4,
+  "nodes": 1536,
+  "cross_edges": 248,
+  "times": {
+   "separate": [
+    180.294236,
+    180.630142,
+    180.07525
+   ],
+   "union": [
+    48.934531,
+    49.072793,
+    48.504642
+   ],
+   "axis": [
+    57.24601,
+    56.383382,
+    56.185311
+   ]
+  },
+  "memory_mib": {
+   "separate": 183.67822265625,
+   "union": 217.59619140625,
+   "axis": 230.33349609375
+  },
+  "joint": {
+   "union": {
+    "n": 1024,
+    "flips": 41,
+    "threshold": 80,
+    "lists": 12,
+    "changed_lists": 7,
+    "max_abs": 0.3190957009792328,
+    "tv": 0.038560926713201674
+   },
+   "axis": {
+    "n": 1024,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 3.7550926208496094e-06,
+    "tv": 2.3214401827925668e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.7099609375,
+   "union": 0.7158203125,
+   "axis": 0.7099609375
+  },
+  "support_fit": {
+   "union": {
+    "n": 1024,
+    "flips": 42,
+    "threshold": 83,
+    "lists": 12,
+    "changed_lists": 6,
+    "max_abs": 0.33171728253364563,
+    "tv": 0.03589239593480866
+   },
+   "axis": {
+    "n": 1024,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 12,
+    "changed_lists": 0,
+    "max_abs": 3.2186508178710938e-06,
+    "tv": 2.3625317249753586e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 256,
+  "fan": 8,
+  "nodes": 2560,
+  "cross_edges": 456,
+  "times": {
+   "separate": [
+    383.234658,
+    350.706536,
+    351.496209
+   ],
+   "union": [
+    49.870959,
+    51.395386,
+    50.147714
+   ],
+   "axis": [
+    70.200539,
+    69.596814,
+    70.098457
+   ]
+  },
+  "memory_mib": {
+   "separate": 184.103515625,
+   "union": 267.46044921875,
+   "axis": 314.63525390625
+  },
+  "joint": {
+   "union": {
+    "n": 2048,
+    "flips": 170,
+    "threshold": 328,
+    "lists": 24,
+    "changed_lists": 16,
+    "max_abs": 0.9945590882562101,
+    "tv": 0.07606364928419158
+   },
+   "axis": {
+    "n": 2048,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 1.9073486328125e-06,
+    "tv": 2.2445162306539146e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.71337890625,
+   "union": 0.72705078125,
+   "axis": 0.71337890625
+  },
+  "support_fit": {
+   "union": {
+    "n": 2048,
+    "flips": 154,
+    "threshold": 315,
+    "lists": 24,
+    "changed_lists": 16,
+    "max_abs": 0.9962895922362804,
+    "tv": 0.0720984299531994
+   },
+   "axis": {
+    "n": 2048,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 24,
+    "changed_lists": 0,
+    "max_abs": 3.159046173095703e-06,
+    "tv": 2.2585247391390673e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 256,
+  "fan": 16,
+  "nodes": 4608,
+  "cross_edges": 1036,
+  "times": {
+   "separate": [
+    708.489024,
+    727.581812,
+    727.381564
+   ],
+   "union": [
+    55.070537,
+    58.681409,
+    78.161817
+   ],
+   "axis": [
+    105.744641,
+    106.224028,
+    105.928845
+   ]
+  },
+  "memory_mib": {
+   "separate": 184.6689453125,
+   "union": 363.03125,
+   "axis": 481.2802734375
+  },
+  "joint": {
+   "union": {
+    "n": 4096,
+    "flips": 373,
+    "threshold": 719,
+    "lists": 48,
+    "changed_lists": 38,
+    "max_abs": 0.9636577732744627,
+    "tv": 0.08859052208622968
+   },
+   "axis": {
+    "n": 4096,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 3.337860107421875e-06,
+    "tv": 2.6596061449002395e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.73974609375,
+   "union": 0.73974609375,
+   "axis": 0.73974609375
+  },
+  "support_fit": {
+   "union": {
+    "n": 4096,
+    "flips": 334,
+    "threshold": 660,
+    "lists": 48,
+    "changed_lists": 36,
+    "max_abs": 0.9684989679954015,
+    "tv": 0.08282415969105167
+   },
+   "axis": {
+    "n": 4096,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 48,
+    "changed_lists": 0,
+    "max_abs": 2.3245811462402344e-06,
+    "tv": 2.725160330920712e-07
+   }
+  }
+ },
+ {
+  "support": 512,
+  "request": 256,
+  "fan": 32,
+  "nodes": 8704,
+  "cross_edges": 1686,
+  "times": {
+   "separate": [
+    1408.176126,
+    1405.486493,
+    1414.651214
+   ],
+   "union": [
+    216.66136,
+    88.797165,
+    88.097785
+   ],
+   "axis": [
+    205.974162,
+    204.705701,
+    205.131812
+   ]
+  },
+  "memory_mib": {
+   "separate": 183.44189453125,
+   "union": 546.68603515625,
+   "axis": 815.8037109375
+  },
+  "joint": {
+   "union": {
+    "n": 8192,
+    "flips": 1156,
+    "threshold": 2326,
+    "lists": 96,
+    "changed_lists": 84,
+    "max_abs": 0.9319313764572144,
+    "tv": 0.1308699279196721
+   },
+   "axis": {
+    "n": 8192,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 2.86102294921875e-06,
+    "tv": 2.9228100434722237e-07
+   }
+  },
+  "accuracy": {
+   "separate": 0.7244873046875,
+   "union": 0.733154296875,
+   "axis": 0.7244873046875
+  },
+  "support_fit": {
+   "union": {
+    "n": 8192,
+    "flips": 1182,
+    "threshold": 2327,
+    "lists": 96,
+    "changed_lists": 84,
+    "max_abs": 0.9252359941601753,
+    "tv": 0.12806023268111233
+   },
+   "axis": {
+    "n": 8192,
+    "flips": 0,
+    "threshold": 0,
+    "lists": 96,
+    "changed_lists": 0,
+    "max_abs": 2.9206275939941406e-06,
+    "tv": 3.091280371203889e-07
+   }
+  }
+ }
+]
